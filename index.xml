@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://replace-this-with-your-hugo-site.com/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Dec 2015 17:30:38 +0530</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>first</title>
+      <link>http://replace-this-with-your-hugo-site.com/post/first/</link>
+      <pubDate>Sun, 20 Dec 2015 17:30:38 +0530</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/post/first/</guid>
+      <description>&lt;p&gt;This is my first attempt at writing a blog post.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>http://replace-this-with-your-hugo-site.com/about/</link>
+      <pubDate>Sun, 20 Dec 2015 17:28:50 +0530</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/about/</guid>
+      <description>
+
+&lt;h2 id=&#34;about-me:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;About Me&lt;/h2&gt;
+
+&lt;p&gt;I am a fourth year undergrad student at Indian Institute of Technology Kanpur.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
