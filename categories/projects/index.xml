@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://harshcurious.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Projects on My New Hugo Site</title>
+    <link>http://harshcurious.github.io/categories/projects/</link>
+    <description>Recent content in Projects on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 26 Dec 2015 10:39:09 +0530</lastBuildDate>
-    <atom:link href="http://harshcurious.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://harshcurious.github.io/categories/projects/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>project</title>
@@ -32,30 +32,6 @@
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;course-project:10be9c81b9315bdc8704629d17642664&#34;&gt;Course Project&lt;/h2&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>first</title>
-      <link>http://harshcurious.github.io/post/first/</link>
-      <pubDate>Sun, 20 Dec 2015 17:30:38 +0530</pubDate>
-      
-      <guid>http://harshcurious.github.io/post/first/</guid>
-      <description>&lt;p&gt;This is my first attempt at writing a blog post.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>http://harshcurious.github.io/about/</link>
-      <pubDate>Sun, 20 Dec 2015 17:28:50 +0530</pubDate>
-      
-      <guid>http://harshcurious.github.io/about/</guid>
-      <description>
-
-&lt;h2 id=&#34;about-me:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;About Me&lt;/h2&gt;
-
-&lt;p&gt;I am a fourth year undergrad student at Indian Institute of Technology Kanpur.&lt;/p&gt;
 </description>
     </item>
     
