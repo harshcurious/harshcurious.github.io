@@ -1,0 +1,4 @@
+baseURL = "http://harshcurious.github.io/"
+languageCode = "en-us"
+title = "Personal Webpage of Harsh Kumar"
+theme = "hugo-PaperMod"
