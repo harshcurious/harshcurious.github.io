@@ -2,80 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on harshcurious</title>
-    <link>http://harshcurious.github.io/tags/</link>
+    <link>https://harshcurious.github.io/tags/</link>
     <description>Recent content in Tags on harshcurious</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 28 Feb 2021 13:04:04 +0530</lastBuildDate><atom:link href="http://harshcurious.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Feb 2021 13:04:04 +0530</lastBuildDate><atom:link href="https://harshcurious.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>coding</title>
-      <link>http://harshcurious.github.io/tags/coding/</link>
+      <link>https://harshcurious.github.io/tags/coding/</link>
       <pubDate>Sun, 28 Feb 2021 13:04:04 +0530</pubDate>
       
-      <guid>http://harshcurious.github.io/tags/coding/</guid>
+      <guid>https://harshcurious.github.io/tags/coding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>http://harshcurious.github.io/tags/golang/</link>
+      <link>https://harshcurious.github.io/tags/golang/</link>
       <pubDate>Sun, 28 Feb 2021 13:04:04 +0530</pubDate>
       
-      <guid>http://harshcurious.github.io/tags/golang/</guid>
+      <guid>https://harshcurious.github.io/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>http://harshcurious.github.io/tags/hugo/</link>
+      <link>https://harshcurious.github.io/tags/hugo/</link>
       <pubDate>Sun, 28 Feb 2021 13:04:04 +0530</pubDate>
       
-      <guid>http://harshcurious.github.io/tags/hugo/</guid>
+      <guid>https://harshcurious.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>website</title>
-      <link>http://harshcurious.github.io/tags/website/</link>
+      <link>https://harshcurious.github.io/tags/website/</link>
       <pubDate>Sun, 28 Feb 2021 13:04:04 +0530</pubDate>
       
-      <guid>http://harshcurious.github.io/tags/website/</guid>
+      <guid>https://harshcurious.github.io/tags/website/</guid>
       <description></description>
     </item>
     
     <item>
       <title>windows 10</title>
-      <link>http://harshcurious.github.io/tags/windows-10/</link>
+      <link>https://harshcurious.github.io/tags/windows-10/</link>
       <pubDate>Sun, 28 Feb 2021 13:04:04 +0530</pubDate>
       
-      <guid>http://harshcurious.github.io/tags/windows-10/</guid>
+      <guid>https://harshcurious.github.io/tags/windows-10/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fail</title>
-      <link>http://harshcurious.github.io/tags/fail/</link>
+      <link>https://harshcurious.github.io/tags/fail/</link>
       <pubDate>Sat, 27 Feb 2021 17:56:37 +0530</pubDate>
       
-      <guid>http://harshcurious.github.io/tags/fail/</guid>
+      <guid>https://harshcurious.github.io/tags/fail/</guid>
       <description></description>
     </item>
     
     <item>
       <title>franklin</title>
-      <link>http://harshcurious.github.io/tags/franklin/</link>
+      <link>https://harshcurious.github.io/tags/franklin/</link>
       <pubDate>Sat, 27 Feb 2021 17:56:37 +0530</pubDate>
       
-      <guid>http://harshcurious.github.io/tags/franklin/</guid>
+      <guid>https://harshcurious.github.io/tags/franklin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>julia</title>
-      <link>http://harshcurious.github.io/tags/julia/</link>
+      <link>https://harshcurious.github.io/tags/julia/</link>
       <pubDate>Sat, 27 Feb 2021 17:56:37 +0530</pubDate>
       
-      <guid>http://harshcurious.github.io/tags/julia/</guid>
+      <guid>https://harshcurious.github.io/tags/julia/</guid>
       <description></description>
     </item>
     
