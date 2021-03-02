@@ -1,11 +1,30 @@
 ---
 title: "FranklinFail"
 date: 2021-02-27T17:56:37+05:30
+
+tags: ["franklin", "website", "julia", "coding", "windows 10", "fail"]
+author: "Me"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
 draft: false
+hidemeta: false
+comments: false
+description: "Trying to make Frankin work on Windows 10"
+#disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+searchHidden: false
+cover:
+    image: "<image path/url>" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
 ---
 
 # My Failed Attempt at Setting Up This Website Using Franklin (On Windows)
-/date
+
 
  I will be using [Franklin](https://franklinjl.org/) based on Julia because
  1. I wanted to learn Julia
@@ -20,7 +39,7 @@ To do this I first installed Julia using Chocolatey with the command
 
 > choco install julia --confirm
 
-In reality I actually used the official Julia insaller, but by default it installs Julia in a folder with the version number. [This makes it really hard](https://discourse.julialang.org/t/what-is-the-best-way-to-set-the-path-to-julia-on-windows-10/16467/12 "Discorse question about setting PATH for julia") to add it to your PATH in the Powershell. Chocolatey on the other hand, handles it all for you and you can start using Julia by typing `julia` on the Powershell prompt. Also, updating Julia will be way easier, just run the command `choco upgrade julia --confirm`.
+In reality I first used the official Julia insaller, but by default it installs Julia in a folder with the version number. [This makes it really hard](https://discourse.julialang.org/t/what-is-the-best-way-to-set-the-path-to-julia-on-windows-10/16467/12 "Discorse question about setting PATH for julia") to add it to your PATH in the Powershell. Chocolatey on the other hand, handles it all for you and you can start using Julia by typing `julia` on the Powershell prompt. Also, updating Julia will be way easier, just run the command `choco upgrade julia --confirm`.
 
 ## Setting Up Atom to use as my markdown editor
 
