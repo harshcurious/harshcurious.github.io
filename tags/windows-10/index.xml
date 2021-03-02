@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>windows 10 on harshcurious</title>
+    <link>https://harshcurious.github.io/tags/windows-10/</link>
+    <description>Recent content in windows 10 on harshcurious</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 28 Feb 2021 13:04:04 +0530</lastBuildDate><atom:link href="https://harshcurious.github.io/tags/windows-10/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating This Website Using Hugo on Windows 10</title>
+      <link>https://harshcurious.github.io/posts/hugocreation/</link>
+      <pubDate>Sun, 28 Feb 2021 13:04:04 +0530</pubDate>
+      
+      <guid>https://harshcurious.github.io/posts/hugocreation/</guid>
+      <description>This post describes the creation process of this website. I have used the popular static site generator Hugo. Hugo is based on the language go. Disclaimer: this is the second time I am creating my website using Hugo. But the last time I created this was in 2015, so a lot has changed.
+Installing Hugo on Windows 10 My recommendation is to use Chocolatey to install Hugo although there are binaries available at github for direct installation.</description>
+    </item>
+    
+    <item>
+      <title>FranklinFail</title>
+      <link>https://harshcurious.github.io/posts/franklinfail/</link>
+      <pubDate>Sat, 27 Feb 2021 17:56:37 +0530</pubDate>
+      
+      <guid>https://harshcurious.github.io/posts/franklinfail/</guid>
+      <description>My Failed Attempt at Setting Up This Website Using Franklin (On Windows) I will be using Franklin based on Julia because
+ I wanted to learn Julia I wanted to use markdown (or somethng similar) with LaTeX support automatically I wanted to see if the promises of KaTeX rendering hold water Code highlighting was another bonus  Installing Julia on Windows 10 To do this I first installed Julia using Chocolatey with the command</description>
+    </item>
+    
+  </channel>
+</rss>

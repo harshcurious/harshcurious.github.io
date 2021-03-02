@@ -3,6 +3,8 @@ title: harshcurious
 paginate: 5
 theme: hugo-PaperMod
 
+publishDir: ./
+
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
