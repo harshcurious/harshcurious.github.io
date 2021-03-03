@@ -5,7 +5,20 @@
     <link>https://harshcurious.github.io/posts/</link>
     <description>Recent content in Posts on harshcurious</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 Feb 2021 13:04:04 +0530</lastBuildDate><atom:link href="https://harshcurious.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Mar 2021 13:25:35 +0530</lastBuildDate><atom:link href="https://harshcurious.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning Python: Functions</title>
+      <link>https://harshcurious.github.io/posts/pythonfunction/</link>
+      <pubDate>Wed, 03 Mar 2021 13:25:35 +0530</pubDate>
+      
+      <guid>https://harshcurious.github.io/posts/pythonfunction/</guid>
+      <description>What is a Function A function takes a set of inputs and produces an output. Eg:
+&amp;gt;&amp;gt;&amp;gt;type(32) &amp;lt;class &amp;#39;init&amp;#39;&amp;gt; Here type is a function that takes 32 as an input and produces its class.
+Some Built-in functions   max : gives the “largest character” in the string
+&amp;gt;&amp;gt;&amp;gt;max(&amp;#39;Hello world&amp;#39;) &amp;#39;w&amp;#39;   min : gives the “smallest character” in the string
+&amp;gt;&amp;gt;&amp;gt;min(&amp;#39;Hello world&amp;#39;) &amp;#39; &amp;#39;   len : gives the number of characters in the string</description>
+    </item>
+    
     <item>
       <title>Creating This Website Using Hugo on Windows 10</title>
       <link>https://harshcurious.github.io/posts/hugocreation/</link>
