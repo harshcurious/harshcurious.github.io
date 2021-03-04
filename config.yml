@@ -64,6 +64,10 @@ params:
           url: "https://stackoverflow.com/users/1706088/harshcurious"
         - name: github
           url: "https://github.com/harshcurious"
+        - name: linkedin
+          url: https://www.linkedin.com/in/harsh-kumar-a7b98198/
+        # - name: discord
+        #   url: https://www.discord.com/harshcurious#7478
 
 
     defaultTheme: auto # dark, light
