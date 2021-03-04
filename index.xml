@@ -5,7 +5,18 @@
     <link>https://harshcurious.github.io/</link>
     <description>Recent content on harshcurious</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 03 Mar 2021 13:25:35 +0530</lastBuildDate><atom:link href="https://harshcurious.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Mar 2021 10:48:28 +0530</lastBuildDate><atom:link href="https://harshcurious.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Iterate in Python</title>
+      <link>https://harshcurious.github.io/posts/pythoniteration/</link>
+      <pubDate>Thu, 04 Mar 2021 10:48:28 +0530</pubDate>
+      
+      <guid>https://harshcurious.github.io/posts/pythoniteration/</guid>
+      <description>The while loop It allows you to repeat a set of actions until a statement is true. Eg:
+n = 5 while n &amp;gt; 0: print(n) n = n - 1 print(&amp;#39;Blastoff!&amp;#39;) This is executed as follows
+ Creates and sets n to 5. Goes to the while statement and checks if n is greater than 0. Right now it&amp;rsquo;s true, so we move inside the loop.  Prints n, ie outputs 5.</description>
+    </item>
+    
     <item>
       <title>Learning Python: Functions</title>
       <link>https://harshcurious.github.io/posts/pythonfunction/</link>
