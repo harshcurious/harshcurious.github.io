@@ -23,23 +23,23 @@ menu:
         - name: Archive
           url: archives/
           weight: 5
-        - identifier: Categories
-          name: categories
-          url: /categories/
-          weight: 10
+        # - identifier: Categories
+        #   name: categories
+        #   url: /categories/
+        #   weight: 10
         - identifier: Tags
           name: tags
           url: /tags/
           weight: 20
-        - name: Series
-          url: series
-          weight: 30
-        - name: NullLink
-          url: "#"
-        - name: NullLink2
-          url: "#"
-        - name: NullLink3
-          url: "#"
+        # - name: Series
+        #   url: series
+        #   weight: 30
+        # - name: NullLink
+        #   url: "#"
+        # - name: NullLink2
+        #   url: "#"
+        # - name: NullLink3
+        #   url: "#"
 
 outputs:
     home:
@@ -95,7 +95,7 @@ params:
     profileMode:
         enabled: true # needs to be explicitly set
         title: Harsh Kumar
-        subtitle: "A place where I share my musings on math, tech, coding and politics"
+        subtitle: "A place where I share my musings on math, tech, coding and everything else"
         # imageUrl: "<img location>"
         # imageWidth: 120
         # imageHeight: 120
