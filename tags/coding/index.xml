@@ -5,7 +5,18 @@
     <link>https://harshcurious.github.io/tags/coding/</link>
     <description>Recent content in coding on harshcurious</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 Feb 2021 13:04:04 +0530</lastBuildDate><atom:link href="https://harshcurious.github.io/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Mar 2021 15:06:35 +0530</lastBuildDate><atom:link href="https://harshcurious.github.io/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What are Strings in Python</title>
+      <link>https://harshcurious.github.io/posts/pythonstrings/</link>
+      <pubDate>Sun, 07 Mar 2021 15:06:35 +0530</pubDate>
+      
+      <guid>https://harshcurious.github.io/posts/pythonstrings/</guid>
+      <description>It&amp;rsquo;s a Sequence, a Sequence of Characters   Can access the characters using the braket operator
+&amp;gt;&amp;gt;&amp;gt; fruit = &amp;#39;banana&amp;#39; &amp;gt;&amp;gt;&amp;gt; letter = fruit[1] &amp;gt;&amp;gt;&amp;gt; print(letter) a You get that fruit[1] is a, the second letter in the string. Remeber counting starts from 0 in Python.
+ the number inside the bracket is called the index. Indeces can be negative. But index $\in [-length+1, length -1]$.    len is the built-in function which gives the length of a string.</description>
+    </item>
+    
     <item>
       <title>Creating This Website Using Hugo on Windows 10</title>
       <link>https://harshcurious.github.io/posts/hugocreation/</link>

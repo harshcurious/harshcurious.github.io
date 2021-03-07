@@ -11,7 +11,7 @@
 <meta name="description" content="My notes from the book Python for Everybody">
 <meta name="author" content="Harsh Kumar">
 <link rel="canonical" href="https://harshcurious.github.io/posts/pythoniteration/" />
-<link href="/assets/css/stylesheet.min.72d78e725bedd940f21d9ecf0bdec3b7dc5376270476e821ef8124660a47e052.css" integrity="sha256-cteOclvt2UDyHZ7PC97Dt9xTdicEdugh74EkZgpH4FI=" rel="preload stylesheet"
+<link href="/assets/css/stylesheet.min.06d7ca18a1ed5794979a6cfd16939745764efac38e94670ebbb447bd72fc1a42.css" integrity="sha256-BtfKGKHtV5SXmmz9FpOXRXZO&#43;sOOlGcOu7RHvXL8GkI=" rel="preload stylesheet"
     as="style">
 
 <link rel="icon" href="https://harshcurious.github.io/favicon.ico">
@@ -89,8 +89,8 @@
   "keywords": [
     "python", "py4e", "learning"
   ],
-  "articleBody": "The while loop It allows you to repeat a set of actions until a statement is true. Eg:\nn = 5 while n  0: print(n) n = n - 1 print('Blastoff!') This is executed as follows\n Creates and sets n to 5. Goes to the while statement and checks if n is greater than 0. Right now it’s true, so we move inside the loop.  Prints n, ie outputs 5. Reduces n by 1, ie n is now 4   Goes back to the while statement  Checks if n is still greater than 0. It is, so we again move inside the while loop. Prints 4. Reduces n by 1.   Goes back to the while statement  … …   This goes on until n = 0. When this happens, we exit the while loop and go to the statement after that which is print('Blastoff'). So the probram outputs Blastoff and ends.  Infinite loops Don’t write infinite loops. Eg:\nLather, rinse, repeat\ror\nn = 10 while n  20: print(n, end=' ') n = n - 1 print('Done!') break statement We still sometimes use infinite loops with the break statement for more complicated testing conditions. A simpler example is\nwhile True: line = input(' ') if line == 'done': break print(line) print('Done!') # Code: http://www.py4e.com/code3/copytildone1.py Here the loop runs repeatedly until it hits the break statement when the user inputs done.\ncontinue statement This one ends the current iteration and makes it move onto the next iteration of the loop. The loop still goes on. Eg:\nwhile True: line = input(' ') if line[0] == '#': continue if line == 'done': break print(line) print('Done!') # Code: http://www.py4e.com/code3/copytildone2.py An iteration ends if the the first letter of the input is #. A sample output is :\nThe for Loop ",
-  "wordCount" : "297",
+  "articleBody": "The while loop It allows you to repeat a set of actions until a statement is true. Eg:\nn = 5 while n  0: print(n) n = n - 1 print('Blastoff!') This is executed as follows\n Creates and sets n to 5. Goes to the while statement and checks if n is greater than 0. Right now it’s true, so we move inside the loop.  Prints n, ie outputs 5. Reduces n by 1, ie n is now 4   Goes back to the while statement  Checks if n is still greater than 0. It is, so we again move inside the while loop. Prints 4. Reduces n by 1.   Goes back to the while statement  … …   This goes on until n = 0. When this happens, we exit the while loop and go to the statement after that which is print('Blastoff'). So the probram outputs Blastoff and ends.  Infinite loops Don’t write infinite loops. Eg:\nLather, rinse, repeat\ror\nn = 10 while n  20: print(n, end=' ') n = n - 1 print('Done!') break statement We still sometimes use infinite loops with the break statement for more complicated testing conditions. A simpler example is\nwhile True: line = input(' ') if line == 'done': break print(line) print('Done!') # Code: http://www.py4e.com/code3/copytildone1.py Here the loop runs repeatedly until it hits the break statement when the user inputs done.\ncontinue statement This one ends the current iteration and makes it move onto the next iteration of the loop. The loop still goes on. Eg:\nwhile True: line = input(' ') if line[0] == '#': continue if line == 'done': break print(line) print('Done!') # Code: http://www.py4e.com/code3/copytildone2.py An iteration ends if the the first letter of the input is #. A sample output is :\nThe for Loop  We use this when we want to loop inside a set. The set could be a list of words , lines in a file or a list of numbers.  Eg:\nfriends = ['Joseph', 'Glenn', 'Sally'] for friend in friends: print('Happy New Year:', friend) print('Done!') Some looping examples ➿   Counting the number of items\ncount = 0 for itervar in [3, 41, 12, 9, 74, 15]: count = count + 1 print('Count: ', count)   Total of a set of numbers\ntotal = 0 for itervar in [3, 41, 12, 9, 74, 15]: total = total + itervar print('Total: ', total)   Finding the largest value in a sequence\nlargest = None for itervar in [3, 41, 12, 9, 74, 15]: if largest is None or itervar  largest : largest = itervar print('Largest:', largest)   Function to find the minimum\ndef min(values): smallest = None for value in values: if smallest is None or value  smallest: smallest = value return smallest   Debugging sugestion  Debugging by bisection.  Break a problem in half and add a print statement to check. If the mid-point check is incorrect, the problem must be in the first half of the program. If it is correct, the problem is in the second half. Bisect the selection. So on…    Exercises My solutions\n  Reads numbers until done; print total, count, and average:\ntotal = 0 count = 0 average = 0 while True: inp = input('Enter a number: ') if inp == 'done': break else: try: num = float(inp) except: print('Invalid input') continue total = total + num count = count + 1 average = total / count print('Total:', total, 'Count:', count, 'Average:',average)   Prints max and min as well:\nmax = None min = None while True: inp = input('Enter a number: ') if inp == 'done': break else: try: num = float(inp) except: print('Invalid input') continue if max is None or num  max: max = num if min is None or num  min: min = num print('Max:', max, 'Min:', min)   ",
+  "wordCount" : "629",
   "inLanguage": "en",
   "datePublished": "2021-03-04T10:48:28+05:30",
   "dateModified": "2021-03-04T10:48:28+05:30",
@@ -195,7 +195,7 @@
     </div>
     <div class="post-meta">
 
-March 4, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Harsh Kumar
+March 4, 2021&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Harsh Kumar
 
 </div>
   </header> 
@@ -212,7 +212,10 @@ March 4, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Harsh Kumar
         <a href="#break-statement" aria-label="break statement"><code>break</code> statement</a></li><li>
         <a href="#continue-statement" aria-label="continue statement"><code>continue</code> statement</a></li></ul>
     </li><li>
-        <a href="#the-for-loop" aria-label="The for Loop">The <code>for</code> Loop</a></li></ul>
+        <a href="#the-for-loop" aria-label="The for Loop">The <code>for</code> Loop</a></li><li>
+        <a href="#some-looping-examples-" aria-label="Some looping examples ➿">Some looping examples ➿</a></li><li>
+        <a href="#debugging-sugestion" aria-label="Debugging sugestion">Debugging sugestion</a></li><li>
+        <a href="#exercises" aria-label="Exercises">Exercises</a></li></ul>
       </div>
     </details>
   </div>
@@ -283,6 +286,111 @@ March 4, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Harsh Kumar
 </code></pre></div><p>An iteration ends if the the first letter of the input is <code>#</code>. A sample output is :</p>
 <p><img src="/static/py4e/chapter5/coptildone.png#center" alt="copytildone2"></p>
 <h2 id="the-for-loop">The <code>for</code> Loop<a hidden class="anchor" aria-hidden="true" href="#the-for-loop">#</a></h2>
+<ul>
+<li>We use this when we want to loop <strong>inside a set</strong>.</li>
+<li>The set could be a list of words , lines in a file or a list of numbers.</li>
+</ul>
+<p>Eg:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">friends <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;Joseph&#39;</span>, <span style="color:#e6db74">&#39;Glenn&#39;</span>, <span style="color:#e6db74">&#39;Sally&#39;</span>]
+<span style="color:#66d9ef">for</span> friend <span style="color:#f92672">in</span> friends:
+    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Happy New Year:&#39;</span>, friend)
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Done!&#39;</span>)
+</code></pre></div><p><img src="/static/py4e/chapter5/foroutput.png#center" alt="for output"></p>
+<h2 id="some-looping-examples-">Some looping examples ➿<a hidden class="anchor" aria-hidden="true" href="#some-looping-examples-">#</a></h2>
+<ul>
+<li>
+<p>Counting the number of items</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+<span style="color:#66d9ef">for</span> itervar <span style="color:#f92672">in</span> [<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">41</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">9</span>, <span style="color:#ae81ff">74</span>, <span style="color:#ae81ff">15</span>]:
+  count <span style="color:#f92672">=</span> count <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Count: &#39;</span>, count)
+
+</code></pre></div></li>
+<li>
+<p>Total of a set of numbers</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">total <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+<span style="color:#66d9ef">for</span> itervar <span style="color:#f92672">in</span> [<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">41</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">9</span>, <span style="color:#ae81ff">74</span>, <span style="color:#ae81ff">15</span>]:
+  total <span style="color:#f92672">=</span> total <span style="color:#f92672">+</span> itervar
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Total: &#39;</span>, total)
+</code></pre></div></li>
+<li>
+<p>Finding the largest value in a sequence</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">largest <span style="color:#f92672">=</span> None
+<span style="color:#66d9ef">for</span> itervar <span style="color:#f92672">in</span> [<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">41</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">9</span>, <span style="color:#ae81ff">74</span>, <span style="color:#ae81ff">15</span>]:
+    <span style="color:#66d9ef">if</span> largest <span style="color:#f92672">is</span> None <span style="color:#f92672">or</span> itervar <span style="color:#f92672">&gt;</span> largest :
+        largest <span style="color:#f92672">=</span> itervar
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Largest:&#39;</span>, largest)
+</code></pre></div></li>
+<li>
+<p>Function to find the minimum</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">min</span>(values):
+  smallest <span style="color:#f92672">=</span> None
+  <span style="color:#66d9ef">for</span> value <span style="color:#f92672">in</span> values:
+      <span style="color:#66d9ef">if</span> smallest <span style="color:#f92672">is</span> None <span style="color:#f92672">or</span> value <span style="color:#f92672">&lt;</span> smallest:
+          smallest <span style="color:#f92672">=</span> value
+  <span style="color:#66d9ef">return</span> smallest
+</code></pre></div></li>
+</ul>
+<h2 id="debugging-sugestion">Debugging sugestion<a hidden class="anchor" aria-hidden="true" href="#debugging-sugestion">#</a></h2>
+<ul>
+<li>Debugging by bisection.
+<ul>
+<li>Break a problem in half and add a <code>print</code> statement to check.</li>
+<li>If the mid-point check is incorrect, the problem must be in the first half of the program. If it is correct, the problem is in the second half.</li>
+<li>Bisect the selection.</li>
+<li>So on&hellip;</li>
+</ul>
+</li>
+</ul>
+<h2 id="exercises">Exercises<a hidden class="anchor" aria-hidden="true" href="#exercises">#</a></h2>
+<p>My solutions</p>
+<ol>
+<li>
+<p>Reads numbers until done; print total, count, and average:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">total <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+average <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+
+<span style="color:#66d9ef">while</span> True:
+    inp <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#39;Enter a number: &#39;</span>)
+    <span style="color:#66d9ef">if</span> inp <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;done&#39;</span>:
+        <span style="color:#66d9ef">break</span>
+    <span style="color:#66d9ef">else</span>:
+        <span style="color:#66d9ef">try</span>:
+            num <span style="color:#f92672">=</span> float(inp)
+        <span style="color:#66d9ef">except</span>:
+            <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Invalid input&#39;</span>)
+            <span style="color:#66d9ef">continue</span>
+        total <span style="color:#f92672">=</span> total <span style="color:#f92672">+</span> num
+        count <span style="color:#f92672">=</span> count <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+        average <span style="color:#f92672">=</span> total <span style="color:#f92672">/</span> count
+
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Total:&#39;</span>, total, <span style="color:#e6db74">&#39;Count:&#39;</span>, count, <span style="color:#e6db74">&#39;Average:&#39;</span>,average)
+
+</code></pre></div></li>
+<li>
+<p>Prints max and min as well:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">max <span style="color:#f92672">=</span> None
+min <span style="color:#f92672">=</span> None
+
+<span style="color:#66d9ef">while</span> True:
+    inp <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#39;Enter a number: &#39;</span>)
+    <span style="color:#66d9ef">if</span> inp <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;done&#39;</span>:
+        <span style="color:#66d9ef">break</span>
+    <span style="color:#66d9ef">else</span>:
+        <span style="color:#66d9ef">try</span>:
+            num <span style="color:#f92672">=</span> float(inp)
+        <span style="color:#66d9ef">except</span>:
+            <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Invalid input&#39;</span>)
+            <span style="color:#66d9ef">continue</span>
+        <span style="color:#66d9ef">if</span> max <span style="color:#f92672">is</span> None <span style="color:#f92672">or</span> num <span style="color:#f92672">&gt;</span> max:
+            max <span style="color:#f92672">=</span> num
+        <span style="color:#66d9ef">if</span> min <span style="color:#f92672">is</span> None <span style="color:#f92672">or</span> num <span style="color:#f92672">&lt;</span> min:
+            min <span style="color:#f92672">=</span> num
+
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Max:&#39;</span>, max, <span style="color:#e6db74">&#39;Min:&#39;</span>, min)
+</code></pre></div></li>
+</ol>
 
 </div>
   <footer class="post-footer">
