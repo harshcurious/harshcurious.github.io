@@ -97,3 +97,111 @@ An iteration ends if the the first letter of the input is `#`. A sample output i
 
 
 ## The `for` Loop
+
++ We use this when we want to loop **inside a set**.
++ The set could be a list of words , lines in a file or a list of numbers.
+
+Eg:
+```python
+friends = ['Joseph', 'Glenn', 'Sally']
+for friend in friends:
+    print('Happy New Year:', friend)
+print('Done!')
+```
+![for output](/static/py4e/chapter5/foroutput.png#center)
+
+
+## Some looping examples :loop:
+
++ Counting the number of items
+  ```python
+  count = 0
+  for itervar in [3, 41, 12, 9, 74, 15]:
+    count = count + 1
+  print('Count: ', count)
+
++ Total of a set of numbers
+  ```python
+  total = 0
+  for itervar in [3, 41, 12, 9, 74, 15]:
+    total = total + itervar
+  print('Total: ', total)
+  ```
+
++ Finding the largest value in a sequence
+  ```python
+  largest = None
+  for itervar in [3, 41, 12, 9, 74, 15]:
+      if largest is None or itervar > largest :
+          largest = itervar
+  print('Largest:', largest)
+  ```
+
++ Function to find the minimum
+  ```python
+  def min(values):
+    smallest = None
+    for value in values:
+        if smallest is None or value < smallest:
+            smallest = value
+    return smallest
+  ```
+
+## Debugging sugestion
+
++ Debugging by bisection.
+  - Break a problem in half and add a `print` statement to check.
+  - If the mid-point check is incorrect, the problem must be in the first half of the program. If it is correct, the problem is in the second half.
+  - Bisect the selection.
+  - So on...
+
+## Exercises
+My solutions
+
+1. Reads numbers until done; print total, count, and average:
+    ```python
+    total = 0
+    count = 0
+    average = 0
+
+    while True:
+        inp = input('Enter a number: ')
+        if inp == 'done':
+            break
+        else:
+            try:
+                num = float(inp)
+            except:
+                print('Invalid input')
+                continue
+            total = total + num
+            count = count + 1
+            average = total / count
+
+    print('Total:', total, 'Count:', count, 'Average:',average)
+
+    ```
+
+
+2. Prints max and min as well:
+    ```python
+    max = None
+    min = None
+
+    while True:
+        inp = input('Enter a number: ')
+        if inp == 'done':
+            break
+        else:
+            try:
+                num = float(inp)
+            except:
+                print('Invalid input')
+                continue
+            if max is None or num > max:
+                max = num
+            if min is None or num < min:
+                min = num
+
+    print('Max:', max, 'Min:', min)
+    ```
