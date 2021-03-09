@@ -116,7 +116,7 @@ searchHidden: true
     ![dir(str)](/static/py4e/chapter6/dirString.png#center)
 
   - Methods have a different syntax:
-    ![methodsyntax](static/py4e/chapter6/methodSyntax.png#center)
+    ![methodsyntax](/static/py4e/chapter6/methodSyntax.png#center)
 
   -
 
