@@ -5,7 +5,25 @@
     <link>https://harshcurious.github.io/</link>
     <description>Recent content on harshcurious</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 07 Mar 2021 15:17:14 +0530</lastBuildDate><atom:link href="https://harshcurious.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Mar 2021 22:04:51 +0530</lastBuildDate><atom:link href="https://harshcurious.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Let&#39;s get Go-ing</title>
+      <link>https://harshcurious.github.io/posts/gointro/</link>
+      <pubDate>Mon, 08 Mar 2021 22:04:51 +0530</pubDate>
+      
+      <guid>https://harshcurious.github.io/posts/gointro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>First look at Go In Action</title>
+      <link>https://harshcurious.github.io/posts/gofirstlook/</link>
+      <pubDate>Mon, 08 Mar 2021 21:12:59 +0530</pubDate>
+      
+      <guid>https://harshcurious.github.io/posts/gofirstlook/</guid>
+      <description>Foreward  Created by Rob Pike, Robert Griesmier, and Ken Thompson  other contributions include UNIX, Java&amp;rsquo;s JVM Hotspot, Strontalk, UTF8   Open-sourse 2013: Gopher Academy; building community around Go.  Go discussion board (slack) Gopher Academy blog GopherCon Go In Action    Preface  Began as GoingGo.net blog Member of founding team of Go  reviewed suggested changes shared expertise   Community effort ever scince  About the Book  Go is  simple makes  simple reliable and efficient software   ides from existing languages unique and simple balances  low-level language features, and high-level language features     Book  For intermediate level Requires experince with programming Goal  intensive comprehensive idiomatic   Focus on both  specification, around implementation   Topics include:  syntax type system concurrency channel testing, etc     Overview:  Chapter 1  What is Go?</description>
+    </item>
+    
     <item>
       <title>Microsoft Terminal</title>
       <link>https://harshcurious.github.io/posts/microsoftterminal/</link>

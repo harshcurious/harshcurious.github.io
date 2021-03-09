@@ -46,5 +46,108 @@ searchHidden: true
   >>> len(fruit)
   6
   ```
+- How to travese through a string:
+  1. `while` loop:
+      ```python
+      index = 0
+      while index < len(fruit):
+          letter = fruit[index]
+          print(letter)
+          index = index + 1
+      ```
 
-- 
+  2. `for` loop:
+      ```Python
+      for char in fruit:
+        print(char)
+      ```
+- How to slice a string?
+  ```python
+  >>> s = 'Monty Python'
+  >>> print(s[0:5])
+  Monty
+  >>> print(s[6:12])
+  Python
+  >>> print(s[:3])
+  Mon
+  >>> print(s[3:])
+  ty Python
+  >>> print(s[3:3])
+  ''
+  >>> print(s[:])
+  Monty Python
+  ```
+
+- What's **imutable** about 'em'?
+  + try this:
+    ```python
+    >>> greeting = 'Hello, world!'
+    >>> greeting[0] = 'J'
+    TypeError: 'str' object does not support item assignment
+    ```
+  + you get an error because strings are *immutable*, ie they can't be changed.
+  + instead you need to create a new string:
+    ```python
+    >>> new_greeting = 'J' + greeting[1:]
+    >>> print(new_greeting)
+    Jello, world!
+    ```
+
+- Fighting for equality:
+  - ```python
+    if word == 'banana':
+      print('All right, bananas.')
+    ```
+      this checks if the string `word` is exactly the string `banana`.
+
+  - ```python
+    if word < 'banana':
+      print('Your word,' + word + ', comes before banana.')
+    ```
+    this checks the **alphabetical order** among strings.
+
+  - All the uppercase letters come before all the lowercase letters
+- Are strings Python objects? What's an object?
+  - Strings are objects
+  - Object contains two things
+    - data
+    - methods : functions built into objects and available to any instance
+  - The `dir` shows avilable methods associated with the object
+    ![dir(str)](/static/py4e/chapter6/dirString.png#center)
+
+  - Methods have a different syntax:
+    ![methodsyntax](static/py4e/chapter6/methodSyntax.png#center)
+
+  -
+
+
+## Exercises
+My solutions:
+1.  ```python
+    fruit = 'banana'
+    index = len(fruit)
+    while index > 0:
+        print(fruit[index -1])
+        index = index - 1
+    ```
+
+    Here in the first statement of the `while` loop I combined two statement and it works.
+
+2.
+
+3. ```python
+    def countletter(word, char):
+        count = 0
+        for letter in word:
+            if letter == char:
+                count = count + 1
+        print(count)
+
+    word = input('Word: ')
+
+    char = input('Letter to count: ')
+
+    countletter(word, char)
+   ```
+
+4.
