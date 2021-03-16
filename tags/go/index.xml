@@ -12,7 +12,7 @@
       <pubDate>Mon, 08 Mar 2021 22:04:51 +0530</pubDate>
       
       <guid>https://harshcurious.github.io/posts/gointro/</guid>
-      <description></description>
+      <description>Why Go?  Computer evolution  more cores programming languages based on one core programming   Programming workflow evolution  not written by single developer written at different times programmers write library or package to be used elsewhere open source code needs to be shared   Go  rethinks object-oriented development allows for code reuse let&amp;rsquo;s you use all cores no need to recompile evrytime.   Learn  concurrency model fast compiler syntax type system concurrency channels testing, etc    How Modern programming challenges Go away  Currently choice between  rapid development : Ruby, python fast execution : C, C++.</description>
     </item>
     
     <item>
