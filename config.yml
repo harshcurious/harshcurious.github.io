@@ -1,0 +1,156 @@
+baseURL: "https://harshcurious.github.io"
+title: harshcurious
+paginate: 5
+theme: hugo-PaperMod
+
+publishDir: ./
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+#googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    #minifyOutput: true
+
+menu:
+    main:
+        - name: Archive
+          url: archives/
+          weight: 5
+        # - identifier: Categories
+        #   name: categories
+        #   url: /categories/
+        #   weight: 10
+        - identifier: Tags
+          name: Tags
+          url: /tags/
+          weight: 20
+        # - name: Series
+        #   url: series
+        #   weight: 30
+        # - name: NullLink
+        #   url: "#"
+        # - name: NullLink2
+        #   url: "#"
+        # - name: NullLink3
+        #   url: "#"
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    author: Harsh
+    # author: ["Me", "You"] # multiple authors
+    # images: ["<link or path of image for opengraph, twitter-cards>"]
+
+    homeInfoParams:
+        Title: "Hi there \U0001F44B"
+        Content: Welcome to my blog
+    socialIcons:
+        - name: twitter
+          url: "https://twitter.com/harshcurious"
+        - name: stackoverflow
+          url: "https://stackoverflow.com/users/1706088/harshcurious"
+        - name: github
+          url: "https://github.com/harshcurious"
+        - name: linkedin
+          url: https://www.linkedin.com/in/harsh-kumar-a7b98198/
+        # - name: discord
+        #   url: https://www.discord.com/harshcurious#7478
+
+
+    defaultTheme: auto # dark, light
+    disableThemeToggle: false
+
+    ShowReadingTime: true
+    ShowShareButtons: true
+    # disableSpecial1stPost: false
+    # comments: false
+    hidemeta: false
+    showtoc: false
+    tocopen: false
+
+    # assets:
+    #     # disableHLJS: true # to disable highlight.js
+    #     # disableFingerprinting: true
+    #     favicon: "<link / abs url>"
+    #     favicon16x16: "<link / abs url>"
+    #     favicon32x32: "<link / abs url>"
+    #     apple_touch_icon: "<link / abs url>"
+    #     safari_pinned_tab: "<link / abs url>"
+
+    # label:
+    #     text: "Home"
+    #     icon: /apple-touch-icon.png
+    #     iconHeight: 35
+
+    # profile-mode
+    profileMode:
+        enabled: true # needs to be explicitly set
+        title: Harsh Kumar
+        subtitle: "A place where I share my musings on math, tech, coding and everything else"
+        # imageUrl: "<img location>"
+        # imageWidth: 120
+        # imageHeight: 120
+        # imageTitle: harsh
+        buttons:
+            - name: Blog Posts
+              url: posts
+            # - name: Tags
+            #   url: tags
+
+        socialIcons:
+            - name: twitter
+              url: "https://twitter.com/harshcurious"
+            - name: stackoverflow
+              url: "https://stackoverflow.com/users/1706088/harshcurious"
+            - name: github
+              url: "https://github.com/harshcurious"
+            - name: linkedin
+              url: https://www.linkedin.com/in/harsh-kumar-a7b98198/
+
+    # home-info mode
+
+
+
+
+#    analytics:
+#        google:
+#            SiteVerificationTag: "XYZabc"
+
+    # cover:
+    #     hidden: false # hide everywhere but not in structured data
+    #     hiddenInList: true # hide on list pages and home
+    #     hiddenInSingle: true # hide on single page
+
+    # for search
+    # https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai
