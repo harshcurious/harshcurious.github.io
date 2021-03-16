@@ -46,7 +46,7 @@ searchHidden: true
   >>> len(fruit)
   6
   ```
-## How to travese through a string:
+- How to travese through a string:
   1. `while` loop:
       ```python
       index = 0
@@ -61,7 +61,7 @@ searchHidden: true
       for char in fruit:
         print(char)
       ```
-## How to slice a string?
+- How to slice a string?
   ```python
   >>> s = 'Monty Python'
   >>> print(s[0:5])
@@ -78,79 +78,47 @@ searchHidden: true
   Monty Python
   ```
 
-## What's **imutable** about 'em'?
-+ try this:
-  ```python
-  >>> greeting = 'Hello, world!'
-  >>> greeting[0] = 'J'
-  TypeError: 'str' object does not support item assignment
-  ```
-+ you get an error because strings are *immutable*, ie they can't be changed.
-+ instead you need to create a new string:
-  ```python
-  >>> new_greeting = 'J' + greeting[1:]
-  >>> print(new_greeting)
-  Jello, world!
-  ```
+- What's **imutable** about 'em'?
+  + try this:
+    ```python
+    >>> greeting = 'Hello, world!'
+    >>> greeting[0] = 'J'
+    TypeError: 'str' object does not support item assignment
+    ```
+  + you get an error because strings are *immutable*, ie they can't be changed.
+  + instead you need to create a new string:
+    ```python
+    >>> new_greeting = 'J' + greeting[1:]
+    >>> print(new_greeting)
+    Jello, world!
+    ```
 
-## Fighting for equality:
-- ```python
-  if word == 'banana':
-    print('All right, bananas.')
-  ```
-    this checks if the string `word` is exactly the string `banana`.
+- Fighting for equality:
+  - ```python
+    if word == 'banana':
+      print('All right, bananas.')
+    ```
+      this checks if the string `word` is exactly the string `banana`.
 
-- ```python
-  if word < 'banana':
-    print('Your word,' + word + ', comes before banana.')
-  ```
-  this checks the **alphabetical order** among strings.
+  - ```python
+    if word < 'banana':
+      print('Your word,' + word + ', comes before banana.')
+    ```
+    this checks the **alphabetical order** among strings.
 
-- All the uppercase letters come before all the lowercase letters
+  - All the uppercase letters come before all the lowercase letters
+- Are strings Python objects? What's an object?
+  - Strings are objects
+  - Object contains two things
+    - data
+    - methods : functions built into objects and available to any instance
+  - The `dir` shows avilable methods associated with the object
+    ![dir(str)](/static/py4e/chapter6/dirString.png#center)
 
+  - Methods have a different syntax:
+    ![methodsyntax](/static/py4e/chapter6/methodSyntax.png#center)
 
-## Are strings Python objects? What's an object?
-- Strings are objects
-- Object contains two things
-  - data
-  - methods : functions built into objects and available to any instance
-- The `dir` shows avilable methods associated with the object
-  ![dir(str)](/static/py4e/chapter6/dirString.png#center)
-
-- Methods have a different syntax:
-  ![methodsyntax](/static/py4e/chapter6/methodSyntax.png#center)
-
-
-## Some *string* methods :
-- `str.upper()` : as shown above, return copy by turning all characters into uppercase.
-- `str.capitalize()` : returns copy with first character capitalized and the rest lowercased
-- `str.casefold` : removes all case distictions; umlauts, etc removed
-- `str.count(sub[, start[, end]])` : Returns the number of non-overlapping occurrences of substring *sub* in the range $[start, end]$
-- `str.find(sub[, start[, end]])` : Returns the lowest index in the string where substring sub is found within the slice $s[start:end]$. Returns -1 if sub is not found.
-- `in` operator (not a method):
-  ```python
-  >>> 'Py' in 'Python'
-  True
-  ```
-
-- `str.endswith(suffix[, start[, end]])` : Returns True if the string ends with the specified suffix, otherwise return False. suffix can also be a tuple of suffixes to look for.
-- `str.format(*args, **kwargs)` : replaces elements in {} with a string value. Eg
-  ```python
-  >>> "The sum of 1 + 2 is {0}".format(1+2)
-  'The sum of 1 + 2 is 3'
-  ```
-  This is a relatively new inclusion to Python. More details later.
-- `str.index(sub[, start[, end]])` : like `find()`, but returns `ValueError` when substring is not found.
-- `str.isdigit()` : returns `True` if all characters are digits and at least one character, `False` otherwise. Digits include decimals and special ones (like non-base 10 and superscript ones).
-- `str.join(iterable)` : Returns a string which is a concatenation of strings in *iterable*. Error `TypeError` if there is a non-string value in *iterable*.
-- `str.partition(sep)` : Splits the string at the first occurence of *sep* and returns a 3-tuple containing the part before separator, the seperator, and the part after separator.
-- `str.replace(old,new[,count])` : Returns a copy of str with all occurances of *old* replaced by *new*. If count is provided then only the first *count*-number of replacements are held.
-- `str.split(sep=None, maxsplit=-1)` : Returns a list of words in the string, all of which are separated by *sep*. The defaults separates whitespace characters.
-- `str.startswith` : Like `endswith()`, but checks for prefix.
-- `str.strip([chars])` : Returns a copy of the string with the leading and trailing characters removed. By default it removes the whitespaces at the begining and end of the string.
-
-## Parsing Strings
-
+  -
 
 
 ## Exercises
