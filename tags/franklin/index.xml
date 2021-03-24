@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>franklin on harshcurious</title>
-    <link>https://harshcurious.github.io/tags/franklin/</link>
+    <link>https://harshcurious.com/tags/franklin/</link>
     <description>Recent content in franklin on harshcurious</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 27 Feb 2021 17:56:37 +0530</lastBuildDate><atom:link href="https://harshcurious.github.io/tags/franklin/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Feb 2021 17:56:37 +0530</lastBuildDate><atom:link href="https://harshcurious.com/tags/franklin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FranklinFail</title>
-      <link>https://harshcurious.github.io/posts/franklinfail/</link>
+      <link>https://harshcurious.com/posts/franklinfail/</link>
       <pubDate>Sat, 27 Feb 2021 17:56:37 +0530</pubDate>
       
-      <guid>https://harshcurious.github.io/posts/franklinfail/</guid>
+      <guid>https://harshcurious.com/posts/franklinfail/</guid>
       <description>My Failed Attempt at Setting Up This Website Using Franklin (On Windows) I will be using Franklin based on Julia because
  I wanted to learn Julia I wanted to use markdown (or somethng similar) with LaTeX support automatically I wanted to see if the promises of KaTeX rendering hold water Code highlighting was another bonus  Installing Julia on Windows 10 To do this I first installed Julia using Chocolatey with the command</description>
     </item>

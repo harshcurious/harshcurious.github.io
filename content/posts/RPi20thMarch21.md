@@ -94,4 +94,76 @@ Time for google :mag: . [Found it :raised_hands:](https://stackoverflow.com/ques
 
 ## What Was that Code
 
-The parts that I didn't understand were `0x3f`-like objects and the operation `<<`. 
+The parts that I didn't understand were `0x3f`-like objects and the operation `<<`.
+
+Let me first understand `0x3f`. Upon googling I found [this](https://en.wikipedia.org/wiki/Seven-segment_display#Hexadecimal) on the wikipedia page of 7-segment display.  This is the hexadecimal code for 0b**00111111** binary code.
+
+|Display | Hex      | binary |
+|-----| ----- | ----------- |
+| 0   | 0x3f  | 0b 00111111  |
+| 1   | 0x06  | 0b 00000110  |
+| 2   | 0x5b  | 0b 01011011  |
+| 3   | 0x4f  | 0b 01001111  |
+| 4   | 0x66  | 0b 01100110  |
+| 5   | 0x6d  | 0b 01101101  |
+| 6   | 0x7d  | 0b 01111101  |
+| 7   | 0x07  | 0b 00000111  |
+| 8   | 0x7f  | 0b 01111111  |
+| 9   | 0x6f  | 0b 01101111  |
+| A   | 0x77  | 0b 01110111  |
+| b   | 0x7c  | 0b 01111100  |
+| C   | 0x39  | 0b 00111001  |
+| d   | 0x5e  | 0b 01011110  |
+| E   | 0x79  | 0b 01111001  |
+| F   | 0x71  | 0b 01110001  |
+| .   | 0x80  | 0b 10000000  |
+
+When I look at the python documentation `x << y` is a [bitwise operation](https://wiki.python.org/moin/BitwiseOperators). And what it does is it returns `x` with the bits shifted to the left by `y` units (and new bits on the right-hand-side are zeros). At the same link I saw that `x & y` is the *bitwise and*.  Each bit of the output is 1 if the corresponding **bit** of `x` AND of `y` is 1, otherwise it's 0. Let me look at a few examples.
+```python
+>>> bin(0x01)
+'0b1'
+>>> bin(0x01 << 0)
+'0b1'
+>>> bin(0x01 << 1)
+'0b10'
+>>> bin(0x01 << 2)
+'0b100'
+>>> bin(0x06)
+'0b110'
+>>> bin(0x06 << 3)
+'0b110000'
+```
+
+```python
+>>> bin(0b00111111 & 0b00000001)
+'0b1'
+>>> bin(0b00111111 & 0b00010001)
+'0b10001'
+>>> bin(0b10111111 & 0b10010001)
+'0b10010001'
+```
+
+I think this makes these operations clear to me. In case of `x<<y` you add y number of zeros to the binary form of `x`. `x & y` looks at the binary form of `x` and `y` and performs the `and` operation on every bit.
+
+
+To understand waht is happening I have to look at the circuit I have made. I notice that pin 11 (using the raspberry pi board convention) is connected to the pin **??** on the 7-segment display.
+![7-segment display](/svg/7_Segment_Display_with_Labeled_Segments.svg)
+
+
+Now let's look at this statement of the code.
+```python
+def writeOneByte(val):
+	GPIO.output(11, val & (0x01 << 0))
+	GPIO.output(12, val & (0x01 << 1))
+	GPIO.output(13, val & (0x01 << 2))
+	GPIO.output(15, val & (0x01 << 3))
+	GPIO.output(16, val & (0x01 << 4))
+	GPIO.output(18, val & (0x01 << 5))
+	GPIO.output(22, val & (0x01 << 6))
+	GPIO.output(7,  val & (0x01 << 7))
+```
+If I also look at how the `loop()` function is running, at any moment, `val` is an element in the list `dats`. Let's consider the first case of `val = 0x3f`. What will be the output of `val & (0x01 << 0)`? This is the same as `0x3f & (0x01 << 0)`. I am going to run it on python.
+```python
+>>> bin(0x3f & (0x01 << 0))
+'0b1'
+```
