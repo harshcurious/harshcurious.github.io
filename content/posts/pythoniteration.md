@@ -17,7 +17,7 @@ description: "My notes from the book Python for Everybody"
 disableShare: false
 # to disable highlightjs
 disableHLJS: false
-searchHidden: true
+searchHidden: false
 # cover:
 #     image: "<image path/url>" # image path/url
 #     alt: "<alt text>" # alt text

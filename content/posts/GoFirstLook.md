@@ -17,7 +17,7 @@ description: "What I thought when I first opened it."
 disableShare: false
 # to disable highlightjs
 disableHLJS: false
-searchHidden: true
+searchHidden: false
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text

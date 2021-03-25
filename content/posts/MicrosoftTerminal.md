@@ -17,7 +17,7 @@ description: "Setting up the Microsoft Terminal with Oh-my-posh."
 disableShare: false
 # to disable highlightjs
 disableHLJS: false
-searchHidden: true
+searchHidden: false
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text

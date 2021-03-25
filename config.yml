@@ -31,6 +31,8 @@ menu:
           name: Tags
           url: /tags/
           weight: 20
+        - name: Search
+          url: search/
         # - name: Series
         #   url: series
         #   weight: 30
@@ -49,7 +51,7 @@ outputs:
 
 
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    #env: production # to enable google analytics, opengraph, twitter-cards and schema.
     author: Harsh
     # author: ["Me", "You"] # multiple authors
     # images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -80,7 +82,7 @@ params:
     hidemeta: false
     showtoc: false
     tocopen: false
-
+    ShowPostNavLinks: true
     # assets:
     #     # disableHLJS: true # to disable highlight.js
     #     # disableFingerprinting: true
@@ -144,6 +146,11 @@ params:
         threshold: 0.4
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary", "content"]
+
+
+    cover:
+        responsiveImages: false
+        linkFullImages: true
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
