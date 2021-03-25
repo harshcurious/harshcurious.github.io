@@ -17,7 +17,7 @@ description: "Make it look more like an IDE"
 disableShare: false
 # to disable highlightjs
 disableHLJS: false
-searchHidden: true
+searchHidden: false
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text

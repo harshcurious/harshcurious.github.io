@@ -17,7 +17,7 @@ description: "Some rather simple projects"
 disableShare: false
 # to disable highlightjs
 disableHLJS: false
-searchHidden: true
+searchHidden: false
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text
@@ -75,6 +75,7 @@ if __name__ == '__main__':     # Program start from here
 ```
 
 Here is the thing, I just copied this code which was given to me. I don't know what this means. Specifically, the `dats` stuff. So let me just run and see if this works. Here is the circuit I made.
+
 
 ![Circuit Fritzing](/static/RaspberryPi/20thMarch21/7segmentPi.png#center)
 ![For the snobs](/static/RaspberryPi/20thMarch21/7segmentPi_schem.png#center)
@@ -147,7 +148,7 @@ I think this makes these operations clear to me. In case of `x<<y` you add y num
 
 
 To understand waht is happening I have to look at the circuit I have made. I notice that pin 11 (using the raspberry pi board convention) is connected to the pin **??** on the 7-segment display.
-![7-segment display](/svg/7_Segment_Display_with_Labeled_Segments.svg)
+![7-segment display](/static/RaspberryPi/20thMarch21/7_Segment_Display_with_Labeled_Segments.png#center)
 
 
 Now let's look at this statement of the code.

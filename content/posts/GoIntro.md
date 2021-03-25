@@ -17,7 +17,7 @@ description: "Notes from chapter 1 of the book Go In Action"
 disableShare: false
 # to disable highlightjs
 disableHLJS: false
-searchHidden: true
+searchHidden: false
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text
@@ -156,4 +156,4 @@ Here the keyword `go` runs the `log` function as a goroutine. You can execute th
 - Go does this for you.
 
 ## Worst part of the book
-Avoids teaching you how to code on your device. How can you tell me to code entirely online. Come on! 
+Avoids teaching you how to code on your device. How can you tell me to code entirely online. Come on!
