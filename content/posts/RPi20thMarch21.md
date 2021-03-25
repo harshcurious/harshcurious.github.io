@@ -78,6 +78,7 @@ Here is the thing, I just copied this code which was given to me. I don't know w
 
 
 ![Circuit Fritzing](/static/RaspberryPi/20thMarch21/7segmentPi.png#center)
+
 ![For the snobs](/static/RaspberryPi/20thMarch21/7segmentPi_schem.png#center)
 
 **Remark**: the 220 $ \Omega $ resistor is  connected to power in case that is not clear.
@@ -85,6 +86,7 @@ Here is the thing, I just copied this code which was given to me. I don't know w
 It works :sweat_smile: . Let's carry on and celebrate with a few :camera: .
 
 ![The connection mess 1](/static/RaspberryPi/20thMarch21/photo1.jpg#center)
+
 ![The connection mess 2](/static/RaspberryPi/20thMarch21/photo3.jpg#center)
 
 ![The obligatory gif](/static/RaspberryPi/20thMarch21/7segment.gif#center)
