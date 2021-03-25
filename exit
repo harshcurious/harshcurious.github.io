@@ -1,0 +1,279 @@
+[33mcommit 61836b174b2271011ef125390a0982bb1518779f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;33mtag: too_big[m[33m)[m
+Merge: 6149b01 ec52910
+Author: Harsh Kumar <>
+Date:   Thu Mar 25 14:18:18 2021 +0530
+
+    Added my domain harshcurious.com yet again
+
+[33mcommit 6149b01dec8f80c470ccf1c4b914e3132b85c61a[m
+Author: Harsh Kumar <>
+Date:   Thu Mar 25 13:59:36 2021 +0530
+
+    Added my domain harshcurious.com
+
+[33mcommit 202010de703420f095e96b13722be27c93792b3d[m
+Author: Harsh Kumar <>
+Date:   Thu Mar 25 01:53:06 2021 +0530
+
+    Added my domain harshcurious.com
+
+[33mcommit ec52910a8363752333dacb6cf2e9c786f815da97[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Harsh Kumar <harshcurious@users.noreply.github.com>
+Date:   Thu Mar 25 01:37:07 2021 +0530
+
+    Create CNAME
+
+[33mcommit f6625ed82542ae8df97850939d457112d1824083[m
+Merge: a84f7ca a6a318f
+Author: Harsh Kumar <>
+Date:   Sun Mar 21 15:59:02 2021 +0530
+
+    Merge branch 'master' of https://github.com/harshcurious/harshcurious.github.io
+
+[33mcommit a84f7ca2d3e39429c101c1eebbe1bdc02a055c2f[m
+Author: Harsh Kumar <>
+Date:   Sun Mar 21 15:58:28 2021 +0530
+
+    Added blog post on raspberry pi part1
+
+[33mcommit a6a318f5e1d12495d72f8f08094cb5e11d96654c[m
+Author: Harsh Kumar <harshcurious@users.noreply.github.com>
+Date:   Tue Mar 16 16:55:44 2021 +0530
+
+    Update MicrosoftTerminal.md from my iPad
+
+[33mcommit 3b5f033c226bf2c4d04d4b037c20e39c3d3d2dc9[m
+Author: Harsh Kumar <>
+Date:   Tue Mar 16 12:58:06 2021 +0530
+
+    Notes on first chapter from GoInAction added
+
+[33mcommit 322fe4a419b458a74cbe57e9721118281968d899[m
+Merge: 606d19f c482615
+Author: Harsh Kumar <>
+Date:   Tue Mar 16 12:48:48 2021 +0530
+
+    Merge branch 'master' of https://github.com/harshcurious/harshcurious.github.io
+
+[33mcommit 606d19f5742cd61efc12c6f87f52ab7798d45c6c[m
+Author: Harsh Kumar <>
+Date:   Tue Mar 16 12:47:56 2021 +0530
+
+    Notes on first chapter from GoInAction added
+
+[33mcommit c482615a6c93d6b0faddec1b904e0f8bfa5b41ea[m
+Author: Harsh Kumar <harshcurious@users.noreply.github.com>
+Date:   Tue Mar 16 12:45:14 2021 +0530
+
+    Create test.yml
+
+[33mcommit c002ccb5f9d254f84bbe6d7371a0c734283172f7[m
+Author: Harsh Kumar <harshcurious@users.noreply.github.com>
+Date:   Tue Mar 16 12:34:05 2021 +0530
+
+    Delete .github/workflows directory
+
+[33mcommit 2b54339ccb0866c8b483c395067ffc00f7127de5[m
+Author: Harsh Kumar <harshcurious@users.noreply.github.com>
+Date:   Tue Mar 16 12:30:32 2021 +0530
+
+    Update README.md
+
+[33mcommit 291388caab0c094e33b722baf6da135b3224005d[m
+Author: Harsh Kumar <harshcurious@users.noreply.github.com>
+Date:   Tue Mar 16 12:28:49 2021 +0530
+
+    Update README.md
+
+[33mcommit 77851e917dabd886761189295b4ab0ddc675c49a[m
+Author: Harsh Kumar <>
+Date:   Tue Mar 9 12:44:35 2021 +0530
+
+    Image added to python string post
+
+[33mcommit e03d373b94573c91ae4d5015d686a547515362bb[m
+Author: Harsh Kumar <>
+Date:   Tue Mar 9 12:42:29 2021 +0530
+
+    First Go post added
+
+[33mcommit 408b8543cea740bae0cfb6eeb5d18d5a61b089cd[m
+Author: Harsh Kumar <>
+Date:   Sun Mar 7 15:26:38 2021 +0530
+
+    Added new blog posts March 7,'21
+
+[33mcommit c9a10d9308a868493114c5fefd719dd49314ae48[m
+Author: Harsh Kumar <>
+Date:   Sun Mar 7 15:26:10 2021 +0530
+
+    Added new blog posts March 7,'21
+
+[33mcommit 7c242070629ee250958216bd09689bb3daf93101[m
+Author: Harsh Kumar <>
+Date:   Thu Mar 4 20:47:08 2021 +0530
+
+    blog post:pythoniteration
+
+[33mcommit 20621a9fcb299d90db2482c4d83f0ad6d37abc27[m
+Author: Harsh Kumar <>
+Date:   Thu Mar 4 20:45:08 2021 +0530
+
+    blog post:pythoniteration
+
+[33mcommit 55d717a0f153d13196137fb239a32f43cb9ddc41[m
+Author: Harsh Kumar <>
+Date:   Thu Mar 4 14:37:43 2021 +0530
+
+    blog post:pythoniteration
+
+[33mcommit 76fe229645f95b95bce5bbdd631cf06569a005b7[m
+Author: Harsh Kumar <>
+Date:   Thu Mar 4 10:12:54 2021 +0530
+
+    change in menu
+
+[33mcommit a75411fc014eba89179231924ae03cbd19ff156a[m
+Author: Harsh Kumar <>
+Date:   Wed Mar 3 15:40:39 2021 +0530
+
+    py4e functions
+
+[33mcommit 11b0520f2d4d9d572f46632c7a6cd5c0f44981a9[m
+Author: Harsh Kumar <>
+Date:   Tue Mar 2 21:21:47 2021 +0530
+
+    Changed publishing directory to default
+
+[33mcommit ab76c4e9d1041c5d0ce75779428919224be9421f[m
+Merge: 4498c0f 0be990e
+Author: Harsh Kumar <>
+Date:   Tue Mar 2 21:01:08 2021 +0530
+
+    Merge branch 'master' of https://github.com/harshcurious/harshcurious.github.io
+
+[33mcommit 4498c0f90375fa177dfdb07fcda9f10618d9a503[m
+Author: Harsh Kumar <>
+Date:   Tue Mar 2 21:00:36 2021 +0530
+
+    Removed an old file
+
+[33mcommit 0be990e89000787de64b4225e996f00086e7f622[m
+Author: Harsh Kumar <harshcurious@users.noreply.github.com>
+Date:   Tue Mar 2 20:55:41 2021 +0530
+
+    Update main.yml
+
+[33mcommit 98f9696640cab0539cc820e7863768f1829a6883[m
+Author: Harsh Kumar <harshcurious@users.noreply.github.com>
+Date:   Tue Mar 2 20:55:23 2021 +0530
+
+    Create main.yml
+
+[33mcommit 0ade5160d38e7835acaad40e6209a7cc7b4764ba[m
+Author: Harsh Kumar <harshcurious@users.noreply.github.com>
+Date:   Tue Mar 2 20:54:50 2021 +0530
+
+    Delete gh-pages.yml
+
+[33mcommit aebdf11ecf1497f2a14ec6312af30f6a55a467aa[m
+Author: Harsh Kumar <harshcurious@users.noreply.github.com>
+Date:   Tue Mar 2 20:34:12 2021 +0530
+
+    Update gh-pages.yml
+
+[33mcommit 105706139ef2cfd529704c04a222164be854e0c6[m
+Author: Harsh Kumar <>
+Date:   Tue Mar 2 20:24:48 2021 +0530
+
+    Adding git actions
+
+[33mcommit 579f70de20ba132f3a7ca8c571ea571e4fa996c2[m
+Author: Harsh Kumar <>
+Date:   Tue Mar 2 20:11:37 2021 +0530
+
+    merged from restart21: Attempt2
+
+[33mcommit c04c631512c7d69672ba1c2acdc0a0a06a24790f[m[33m ([m[1;31morigin/restart21[m[33m, [m[1;32mrestart21[m[33m)[m
+Author: Harsh Kumar <>
+Date:   Tue Mar 2 19:58:20 2021 +0530
+
+    Redid according to new Hugo format
+
+[33mcommit 08b99588362c27bcd4805652cd8762fc6dad0932[m
+Author: Harsh Kumar <>
+Date:   Sun Feb 28 11:52:27 2021 +0530
+
+    Included Mathjax 3 to blog
+
+[33mcommit c726a090ffa724dec1e4856c796474db11f79538[m
+Author: Harsh Kumar <>
+Date:   Sat Feb 27 18:15:29 2021 +0530
+
+    Changed theme to hugo-PaperMod
+
+[33mcommit 058967e4f4a4f742b4df329ef6aa198d827d1888[m
+Author: Harsh Kumar <>
+Date:   Sat Feb 27 18:11:18 2021 +0530
+
+    Changed theme to hugo-PaperMod
+
+[33mcommit 38c2dea21031a8770bbde71d2b47978216c16748[m
+Author: harshcurious <eharshkmr@gmail.com>
+Date:   Sat Dec 26 22:00:26 2015 +0530
+
+    =26dec15_3
+
+[33mcommit 89a45428b29cfd1c4d37d262f5f49540c001a60c[m
+Author: harshcurious <eharshkmr@gmail.com>
+Date:   Sat Dec 26 21:58:38 2015 +0530
+
+    =26dec15_2
+
+[33mcommit 33001e2e739956cb71408c6ca853d78405f64dd8[m
+Author: harshcurious <eharshkmr@gmail.com>
+Date:   Sat Dec 26 20:14:00 2015 +0530
+
+    =26dec15_1
+
+[33mcommit 52d9ec85d9c0c1626cacead9dc59b6fcecac73f1[m
+Author: harshcurious <eharshkmr@gmail.com>
+Date:   Thu Dec 24 23:59:56 2015 +0530
+
+    =now2
+
+[33mcommit 7c4976ab6b5d566240d2aa10762f38feadc8f72c[m
+Author: harshcurious <eharshkmr@gmail.com>
+Date:   Thu Dec 24 23:50:43 2015 +0530
+
+    =now
+
+[33mcommit 16d754ee4de95db64cd6bda561305db49be19173[m
+Author: harshcurious <eharshkmr@gmail.com>
+Date:   Thu Dec 24 23:33:15 2015 +0530
+
+    =retry
+
+[33mcommit 0c125c69b5147208b7c80ab3b2277d6c35a1d4e6[m
+Author: harshcurious <eharshkmr@gmail.com>
+Date:   Thu Dec 24 00:49:24 2015 +0530
+
+    2
+
+[33mcommit 7a1c6de63871cbe52db5fce7eecf77a3a2bd443a[m
+Author: harshcurious <eharshkmr@gmail.com>
+Date:   Thu Dec 24 00:44:35 2015 +0530
+
+    first
+
+[33mcommit 2ef76f73db84552d148139235bf19dc585ba0327[m
+Author: harshcurious <eharshkmr@gmail.com>
+Date:   Wed Dec 23 23:39:52 2015 +0530
+
+    Create README.md
+
+[33mcommit d7103e6a8859d210eea390112b9cf8df30774667[m
+Author: harshcurious <eharshkmr@gmail.com>
+Date:   Wed Dec 23 23:30:18 2015 +0530
+
+    Initial commit
