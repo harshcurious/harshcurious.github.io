@@ -76,8 +76,9 @@ if __name__ == '__main__':     # Program start from here
 
 Here is the thing, I just copied this code which was given to me. I don't know what this means. Specifically, the `dats` stuff. So let me just run and see if this works. Here is the circuit I made.
 
-![Circuit Fritzing](/static/RaspberryPi/20thMarch21/7segmentPi.png#center)
-![For the snobs](/static/RaspberryPi/20thMarch21/7segmentPi_schem.png#center)
+{{< figure src="/static/RaspberryPi/20thMarch21/7segmentPi.png" title="Circuit Fritzing" >}}
+
+{{< figure src="/static/RaspberryPi/20thMarch21/7segmentPi_schem.png" title="For the snobs">}}
 
 **Remark**: the 220 $ \Omega $ resistor is  connected to power in case that is not clear.
 
