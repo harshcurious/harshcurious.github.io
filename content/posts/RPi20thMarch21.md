@@ -147,7 +147,7 @@ I think this makes these operations clear to me. In case of `x<<y` you add y num
 
 
 To understand waht is happening I have to look at the circuit I have made. I notice that pin 11 (using the raspberry pi board convention) is connected to the pin **??** on the 7-segment display.
-![7-segment display](/svg/7_Segment_Display_with_Labeled_Segments.svg)
+![7-segment display](/static/RaspberryPi/20thMarch21/7_Segment_Display_with_Labeled_Segments.png#center)
 
 
 Now let's look at this statement of the code.
