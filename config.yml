@@ -15,8 +15,8 @@ enableEmoji: true
 #googleAnalytics: UA-123-45
 
 minify:
-    disableXML: true
-    #minifyOutput: true
+    disableXML: false
+    minifyOutput: true
 
 menu:
     main:
