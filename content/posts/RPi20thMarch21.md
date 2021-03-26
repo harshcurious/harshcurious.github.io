@@ -146,10 +146,17 @@ When I look at the python documentation `x << y` is a [bitwise operation](https:
 '0b10010001'
 ```
 
-I think this makes these operations clear to me. In case of `x<<y` you add y number of zeros to the binary form of `x`. `x & y` looks at the binary form of `x` and `y` and performs the `and` operation on every bit.
+I think this makes these operations clear to me. In case of `x<<y` you add y number of zeros to the binary form of `x`. `x & y` looks at the binary form of `x` and `y` and performs the `and` operation on every bit. In case this isn't clear yet let me write the case of `0b00111111 & 0b00000001` again:
+```
+0b00111111
+0b00000001
+    ||
+0b00000001
+# which is the same as 0b1
+```
 
 
-To understand waht is happening I have to look at the circuit I have made. I notice that pin 11 (using the raspberry pi board convention) is connected to the pin **??** on the 7-segment display.
+To understand what is happening I have to look at the circuit I have made. I notice that pin 11 (using the raspberry pi board convention) is connected to the pin **??** on the 7-segment display.
 ![7-segment display](/static/RaspberryPi/20thMarch21/7_Segment_Display_with_Labeled_Segments.png#center)
 
 
