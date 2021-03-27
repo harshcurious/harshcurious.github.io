@@ -30,6 +30,7 @@ cover:
 Today I am going to run a 7 segment display off of  raspberry pi 4.
 
 ## The code I ran
+
 ```python
 #!/usr/bin/env python
 import RPi.GPIO as GPIO
@@ -39,43 +40,42 @@ pins = [11,12,13,15,16,18,22,7]
 dats = [0x3f,0x06,0x5b,0x4f,0x66,0x6d,0x7d,0x07,0x7f,0x6f,0x77,0x7c,0x39,0x5e,0x79,0x71,0x80]
 
 def setup():
-	GPIO.setmode(GPIO.BOARD)
-	for pin in pins:
-		GPIO.setup(pin, GPIO.OUT)   # Set pin mode as output
-		GPIO.output(pin, GPIO.LOW)
+ GPIO.setmode(GPIO.BOARD)
+ for pin in pins:
+  GPIO.setup(pin, GPIO.OUT)   # Set pin mode as output
+  GPIO.output(pin, GPIO.LOW)
 
 def writeOneByte(val):
-	GPIO.output(11, val & (0x01 << 0))
-	GPIO.output(12, val & (0x01 << 1))
-	GPIO.output(13, val & (0x01 << 2))
-	GPIO.output(15, val & (0x01 << 3))
-	GPIO.output(16, val & (0x01 << 4))
-	GPIO.output(18, val & (0x01 << 5))
-	GPIO.output(22, val & (0x01 << 6))
-	GPIO.output(7,  val & (0x01 << 7))
+ GPIO.output(11, val & (0x01 << 0))
+ GPIO.output(12, val & (0x01 << 1))
+ GPIO.output(13, val & (0x01 << 2))
+ GPIO.output(15, val & (0x01 << 3))
+ GPIO.output(16, val & (0x01 << 4))
+ GPIO.output(18, val & (0x01 << 5))
+ GPIO.output(22, val & (0x01 << 6))
+ GPIO.output(7,  val & (0x01 << 7))
 
 def loop():
-	while True:
-		for dat in dats:
-			writeOneByte(dat)
-			time.sleep(0.5)
+ while True:
+  for dat in dats:
+   writeOneByte(dat)
+   time.sleep(0.5)
 
 def destroy():
-	for pin in pins:
-		GPIO.output(pin, GPIO.LOW)
-	GPIO.cleanup()             # Release resource
+ for pin in pins:
+  GPIO.output(pin, GPIO.LOW)
+ GPIO.cleanup()             # Release resource
 
 if __name__ == '__main__':     # Program start from here
-	setup()
-	try:
-		loop()
-	except KeyboardInterrupt:  # When 'Ctrl+C' is pressed, the child program destroy() will be executed.
-		destroy()
+ setup()
+ try:
+  loop()
+ except KeyboardInterrupt:  # When 'Ctrl+C' is pressed, the child program destroy() will be executed.
+  destroy()
 
 ```
 
 Here is the thing, I just copied this code which was given to me. I don't know what this means. Specifically, the `dats` stuff. So let me just run and see if this works. Here is the circuit I made.
-
 
 ![Circuit Fritzing](/static/RaspberryPi/20thMarch21/7segmentPi.png#center)
 
@@ -122,6 +122,7 @@ Let me first understand `0x3f`. Upon googling I found [this](https://en.wikipedi
 | .   | 0x80  | 0b 10000000  |
 
 When I look at the python documentation `x << y` is a [bitwise operation](https://wiki.python.org/moin/BitwiseOperators). And what it does is it returns `x` with the bits shifted to the left by `y` units (and new bits on the right-hand-side are zeros). At the same link I saw that `x & y` is the *bitwise and*.  Each bit of the output is 1 if the corresponding **bit** of `x` AND of `y` is 1, otherwise it's 0. Let me look at a few examples.
+
 ```python
 >>> bin(0x01)
 '0b1'
@@ -147,7 +148,8 @@ When I look at the python documentation `x << y` is a [bitwise operation](https:
 ```
 
 I think this makes these operations clear to me. In case of `x<<y` you add y number of zeros to the binary form of `x`. `x & y` looks at the binary form of `x` and `y` and performs the `and` operation on every bit. In case this isn't clear yet let me write the case of `0b00111111 & 0b00000001` again:
-```
+
+```python
 0b00111111
 0b00000001
     ||
@@ -155,24 +157,25 @@ I think this makes these operations clear to me. In case of `x<<y` you add y num
 # which is the same as 0b1
 ```
 
-
 To understand what is happening I have to look at the circuit I have made. I notice that pin 11 (using the raspberry pi board convention) is connected to the pin **??** on the 7-segment display.
 ![7-segment display](/static/RaspberryPi/20thMarch21/7_Segment_Display_with_Labeled_Segments.png#center)
 
-
 Now let's look at this statement of the code.
+
 ```python
 def writeOneByte(val):
-	GPIO.output(11, val & (0x01 << 0))
-	GPIO.output(12, val & (0x01 << 1))
-	GPIO.output(13, val & (0x01 << 2))
-	GPIO.output(15, val & (0x01 << 3))
-	GPIO.output(16, val & (0x01 << 4))
-	GPIO.output(18, val & (0x01 << 5))
-	GPIO.output(22, val & (0x01 << 6))
-	GPIO.output(7,  val & (0x01 << 7))
+ GPIO.output(11, val & (0x01 << 0))
+ GPIO.output(12, val & (0x01 << 1))
+ GPIO.output(13, val & (0x01 << 2))
+ GPIO.output(15, val & (0x01 << 3))
+ GPIO.output(16, val & (0x01 << 4))
+ GPIO.output(18, val & (0x01 << 5))
+ GPIO.output(22, val & (0x01 << 6))
+ GPIO.output(7,  val & (0x01 << 7))
 ```
+
 If I also look at how the `loop()` function is running, at any moment, `val` is an element in the list `dats`. Let's consider the first case of `val = 0x3f`. What will be the output of `val & (0x01 << 0)`? This is the same as `0x3f & (0x01 << 0)`. I am going to run it on python.
+
 ```python
 >>> bin(0x3f & (0x01 << 0))
 '0b1'
