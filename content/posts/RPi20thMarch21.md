@@ -101,7 +101,7 @@ The parts that I didn't understand were `0x3f`-like objects and the operation `<
 
 Let me first understand `0x3f`. Upon googling I found [this](https://en.wikipedia.org/wiki/Seven-segment_display#Hexadecimal) on the wikipedia page of 7-segment display.  This is the hexadecimal code for 0b**00111111** binary code.
 
-|Display | Hex      | binary |
+|Display | Hex    | binary |
 |-----| ----- | ----------- |
 | 0   | 0x3f  | 0b 00111111  |
 | 1   | 0x06  | 0b 00000110  |
@@ -174,7 +174,7 @@ def writeOneByte(val):
  GPIO.output(7,  val & (0x01 << 7))
 ```
 
-If I also look at how the `loop()` function is running, at any moment, `val` is an element in the list `dats`. Let's consider the first case of `val = 0x3f`. What will be the output of `val & (0x01 << 0)`? This is the same as `0x3f & (0x01 << 0)`. I am going to run it on python.
+If I also look at how the `loop()` function is running, at any moment, `val` is an element in the list `dats`. Let's consider the first case of `val = 0x3f`. What will be the output of `val & (0x01 << 0)`? This is the same as `0x3f & (0x01 << 0)`. I am going to run it in python.
 
 ```python
 >>> bin(0x3f & (0x01 << 0))

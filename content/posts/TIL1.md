@@ -5,7 +5,7 @@ draft: false
 
 # weight: 1
 # aliases: ["/first"]
-tags: ["youtube", "notes"]
+tags: ["youtube", "notes", "bullshit", "coronavirus", "codium", "vscode", "TIL"]
 author: "Harsh Kumar"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -97,4 +97,5 @@ The situation is frightening, especially some of the new variants being able to 
   - I have added a bunch of extensions. I am syncing them using my github account via gists. There is an extension called [Settings Sync](https://open-vsx.org/extension/Shan/code-settings-sync). It can sync your settings using a secret *gist*.
 
 ## Watched a fair bit of the cricket match 🏏
+
 I don't know what is happening. Sometimes I think the sheer number of good players in the Indian team is too much and sometimes I feel like England has a more well rounded team than India. I don't know if both can be true at the same time. England crushed India in a more difficult run chase than the 1st ODI. I don't know what to think anymore. I was utterly surprized at how India won the the t20 series and the first ODI. Maybe it was a fluke. I have to look at some kind of data. The matches so far in the limited over games have been fun but confusing.
