@@ -1,4 +1,4 @@
-# My website at [harshcurious.com](https://harshcurious.github.io/)
+# My website at [harshcurious.com](https://harshcurious.com/)
 Built using [Hugo](https://gohugo.io/) with the theme being [Paper-Mod](https://github.com/adityatelange/hugo-PaperMod/)
 
 Directory structure for Content files:
