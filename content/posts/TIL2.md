@@ -108,8 +108,8 @@ A Side note about Brave. it has this interesting option to permit extensions to 
 
 ## Industry S01E02
 
-- It has fairly negative representation of the finance industry. 
-- Shows work-pressure, stress, use of drugs, hostile workplace environment and sexual misconduct. 
+- It has fairly negative representation of the finance industry.
+- Shows work-pressure, stress, use of drugs, hostile workplace environment and sexual misconduct.
 - Shows them in the real-life messy style.
 - Hard to say if these things happen with the frequency displayed.
 - Has the classical drama stuff.
@@ -118,6 +118,7 @@ A Side note about Brave. it has this interesting option to permit extensions to 
 ## Added support for MathJax and Plotpy on this website
 
 ### The mathjax support
+
 - Followed the instruction from https://geoffruddock.com/math-typesetting-in-hugo/ with minor additions.
 
 1. Create a file called `mathjax_support.html` in the folder `./layout/partials` with the following content:
@@ -149,16 +150,19 @@ A Side note about Brave. it has this interesting option to permit extensions to 
 
   I would not recommend creating it inside the theme folder, if you are ever planning on updating your theme.
 
-2. Next if your theme has `header-extend.html` use that, if not then use the `header.html` file. It should be in the `./themes/THEME_NAME/layouts/partials`. Copy this file to your root directory keeping the same directory structure. So in my case my new file will be `./layouts/partials/header-extend.html` To this I add 
-```html 
+2. Next if your theme has `header-extend.html` use that, if not then use the `header.html` file. It should be in the `./themes/THEME_NAME/layouts/partials`. Copy this file to your root directory keeping the same directory structure. So in my case my new file will be `./layouts/partials/header-extend.html` To this I add
+
+```html
 {{ if .Params.mathjax }}
 {{ partial "mathjax_support.html" . }}
 {{ end }}
 ```
-If you are using the `head` file, ensure that this is added before the closing `</head>` tag. 
+
+If you are using the `head` file, ensure that this is added before the closing `</head>` tag.
 3. Now if you have the statement `mathjax: true` in the front matter of your markdown file, then you can use mathjax on your website.
 4. (Optional) To your archetype file, add the `mathjax: true` Front Matter.
 5. (Optional) To your css file add:
+
 ```css
 code.has-jax {
     -webkit-font-smoothing: antialiased;
@@ -167,16 +171,21 @@ code.has-jax {
     font-size: 100%;
 }
 ```
+
 ### Plotly
-- Used for creating interactive diagrams. 
+
+- Used for creating interactive diagrams.
 - Export your plot as a `json` file using the `write_image` library as follows:
+
 ```python
 from plotly.io import write_image
 #... Generate the fig here.
 fig.write_json("plot_name.json")
 ```
+
 - Add the following Hugo shortcode to `plotly.html` at `./layouts/partials/` :
-```html 
+
+```html
 {{ $json := .Get "json" }}
 {{ $height := .Get "height" | default "200px" }}
 <div id="{{$json}}" class="plotly" style="height:{{$height}}"></div>
@@ -186,22 +195,25 @@ Plotly.d3.json({{$json}}, function(err, fig) {
 });
 </script>
 ```
-- Add this to your `header.html` or `header-extend.html` (as used for mathjax above). 
-```html 
+
+- Add this to your `header.html` or `header-extend.html` (as used for mathjax above).
+
+```html
 {{ if .Params.plotly }}
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 {{ end }}
 ```
-- Now if you have the statement `plotly: true` in the front matter of your markdown file, then you can use plotly on your website. by calling the shortcode as follows: 
+
+- Now if you have the statement `plotly: true` in the front matter of your markdown file, then you can use plotly on your website. by calling the shortcode as follows:
+
 ```
 {{/*< plotly json="/plotly/plotly-hugo/scatter3d.json" height="400px" >*/}}
 ```
-
 
 ## Back to using Anki
 
 - Have used it in the past. But it didn't have native MathJax support back then.
 - Was overwhelmed the last time around.
-- No app on the home screen. Won't worry about the counter 
+- No app on the home screen. Won't worry about the counter
 - TODO: Add the python commands over there.
 - Added MiKelTeX to the environment, by searching for the term `environment variable` in the start menu. That made LateX on Anki work for me.
