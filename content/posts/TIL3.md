@@ -1,7 +1,7 @@
 ---
 title: "TIL3"
 date: 2021-04-01T12:07:42+05:30
-draft: false
+draft: true
 
 # weight: 1
 # aliases: ["/first"]
