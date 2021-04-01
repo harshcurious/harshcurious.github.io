@@ -2,6 +2,7 @@
 title: "Mathdraft"
 date: 2021-03-02T16:57:29+05:30
 draft: true
+mathjax: true
 ---
 
 This is to test the mathjax support is working $x=3$, $x_1 = 10$ and $x_2 =10$.
