@@ -1,5 +1,5 @@
 ---
-title: "TIL2"
+title: "Today I Learnt 2"
 date: 2021-03-31T11:26:01+05:30
 draft: false
 
@@ -12,7 +12,7 @@ showToc: true
 TocOpen: false
 hidemeta: false
 comments: true
-description: "Desc Text."
+description: "Notes on what I learnt on March 31, 2021."
 
 disableShare: false
 # to disable highlightjs
@@ -119,7 +119,7 @@ A Side note about Brave. it has this interesting option to permit extensions to 
 
 ### The mathjax support
 
-- Followed the instruction from https://geoffruddock.com/math-typesetting-in-hugo/ with minor additions.
+- Followed the instruction from <https://geoffruddock.com/math-typesetting-in-hugo/> with minor additions.
 
 1. Create a file called `mathjax_support.html` in the folder `./layout/partials` with the following content:
 
