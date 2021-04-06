@@ -6,10 +6,17 @@ theme: PaperMod
 publishDir: ./
 
 enableInlineShortcodes: true
-enableRobotsTXT: true
+enableRobotsTXT: false
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+
+build:
+  # noJSConfigInAssets: false
+  # useResourceCacheWhen: fallback
+  # writeStats: false
+
+
 enableEmoji: true
 
 #googleAnalytics: UA-123-45
