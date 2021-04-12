@@ -2,3 +2,8 @@ microSD
 Pico
 Anki
 MathJax
+eMMC
+GPIO
+UART
+UART
+Mbit
