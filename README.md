@@ -12,10 +12,4 @@ Directory structure for Content files:
 ├── static
 └── themes
 ```
-I then run the `hugo --minfy` command with `publishDir: ./`. So everything else is the website content. I know it is not the ideal way but it works for now. 
-
-The output directory structure is 
-
-```
-
-```
+I then run the `hugo --minfy` command with `publishDir: ./`. So everything else is the website content. I know it is not the ideal way but it works for now.
