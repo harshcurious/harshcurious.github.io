@@ -1,3 +1,5 @@
+MicrosoftTerminal.md
+
 ---
 title: "Microsoft Terminal: My Customizations"
 date: 2021-03-07T15:17:14+05:30
