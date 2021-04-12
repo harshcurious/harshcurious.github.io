@@ -1,5 +1,3 @@
-pythonfunction.md
-
 ---
 title: "Learning Python: Functions"
 date: 2021-03-03T13:25:35+05:30

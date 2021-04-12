@@ -1,5 +1,3 @@
-FranklinFail.md
-
 ---
 title: "FranklinFail"
 date: 2021-02-27T17:56:37+05:30

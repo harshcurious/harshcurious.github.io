@@ -1,5 +1,3 @@
-mathdraft.md
-
 ---
 title: "Mathdraft"
 date: 2021-03-02T16:57:29+05:30

@@ -1,5 +1,3 @@
-MathNeuralNetwork.md
-
 ---
 title: "Kolmogorov Arnold Representation Theorem"
 date: 2021-03-17T14:59:43+05:30

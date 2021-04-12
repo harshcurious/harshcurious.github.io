@@ -1,5 +1,3 @@
-TIL2.md
-
 ---
 title: "Today I Learnt 2"
 date: 2021-03-31T11:26:01+05:30
