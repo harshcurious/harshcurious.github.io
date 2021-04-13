@@ -1,7 +1,7 @@
 ---
-title: "TIL7"
+title: "Today I Learnt 7"
 date: 2021-04-12T10:12:57+05:30
-draft: true
+draft: false
 
 # weight: 1
 # aliases: ["/first"]
