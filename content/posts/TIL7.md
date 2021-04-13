@@ -89,4 +89,4 @@ mathjax: false #turn mathjax support on and off
 
 - There are other options like `Get-ComputerInfo` and `Get-WinEvent`(depreceated from PowerShell 6 onwards). This one worked best for me. YMMV.
 - I genenerated the ASCII art from [this tool](https://textkool.com/en/ascii-art-generator)
-- Learned a fair bit of PowerShell scripting today. I can understand a PowerShell script now. 
+- Learned a fair bit of PowerShell scripting today. I think can understand a PowerShell script now. 
