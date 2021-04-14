@@ -12,7 +12,7 @@ showToc: true
 TocOpen: false
 hidemeta: false
 comments: false
-description: "Desc Text."
+description: "Notes on what I learnt on April 12, 2021."
 
 disableShare: false
 # to disable highlightjs

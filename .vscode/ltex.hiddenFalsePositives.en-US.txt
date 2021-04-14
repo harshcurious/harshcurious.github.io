@@ -1,0 +1,1 @@
+{"rule":"THREE_NN","sentence":"^\\QGo 1.8 made massive improvements in the concurrent garbage collection implementation.\\E$"}
