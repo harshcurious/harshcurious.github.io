@@ -1,1 +1,11 @@
 {"rule":"THREE_NN","sentence":"^\\QGo 1.8 made massive improvements in the concurrent garbage collection implementation.\\E$"}
+{"rule":"PUNCTUATION_PARAGRAPH_END","sentence":"^\\Q\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q \\E(?:Dummy|Ina|Jimmy-)[0-9]+$"}
+{"rule":"PUNCTUATION_PARAGRAPH_END","sentence":"^\\QFor instance, the square\\_sum function is equivalent to the functions\n\\E(?:Dummy|Ina|Jimmy-)[0-9]+$"}
+{"rule":"PUNCTUATION_PARAGRAPH_END","sentence":"^\\QFor example:\nsquare\\_sum\\E(?:Dummy|Ina|Jimmy-)[0-9]+$"}
+{"rule":"PASSIVE_VOICE","sentence":"^\\QThis method is known as currying.\\E$"}
+{"rule":"PUNCTUATION_PARAGRAPH_END","sentence":"^\\Q\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q \\E(?:Dummy|Ina|Jimmy-)[0-9]+$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QLambda calculus (or \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q-calculus) is a formal system in mathematical logic for expressing computation based on function abstraction and application using variable binding and substitution.^lambdawiki\nIt is a universal model of computation.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QComputable functions^computablewiki are a fundamental concept within computer science and mathematics.\\E$"}
+{"rule":"PASSIVE_VOICE","sentence":"^\\QThe keyword: \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q; indicates that a lambda function is being used.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q^lambdawiki: From Wikipedia.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q^computablewiki: According to the Church–Turing thesis, computable functions are exactly the functions that can be calculated using a mechanical calculation device given unlimited amounts of time and storage space.\\E$"}
