@@ -1,11 +1,11 @@
 ---
-title: "TIL13"
+title: "Today I Learnt 13"
 date: 2021-05-12T17:06:34+05:30
 draft: false
 
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
+tags: ["TIL","notes","love"]
 author: "Harsh Kumar"
 # author: ["Me", "You"] # multiple authors
 showToc: true
