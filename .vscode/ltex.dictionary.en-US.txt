@@ -7,3 +7,4 @@ GPIO
 UART
 UART
 Mbit
+nuancesed
