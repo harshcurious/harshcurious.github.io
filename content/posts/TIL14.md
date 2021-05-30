@@ -5,7 +5,7 @@ draft: false
 
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
+tags: ["notes","economy"]
 author: "Harsh Kumar"
 # author: ["Me", "You"] # multiple authors
 showToc: true
