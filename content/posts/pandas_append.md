@@ -1,5 +1,5 @@
 ---
-title: 'Pandas append command'
+title: "Some basic experiments with the pandas' append command"
 date: 2021-12-24T12:04:10+05:30
 draft: false
 
