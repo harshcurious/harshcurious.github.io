@@ -48,7 +48,7 @@ sudo nano program-shortcut.desktop
 
 Edit the `.desktop` file by adding the following
 
-```conf
+```sh
 [Desktop Entry]
 Name=Display Name
 GenericName=Monitor Settings
