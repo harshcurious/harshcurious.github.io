@@ -1,5 +1,5 @@
 ---
-title: 'Mean_variants'
+title: 'Variants of Mean'
 date: 2022-09-12T15:04:10+05:30
 draft: false
 
@@ -12,7 +12,7 @@ showToc: true
 TocOpen: false
 hidemeta: false
 comments: false
-description: 'Desc Text.'
+description: 'The simple mean is not always a great statistic'
 
 disableShare: false
 # to disable highlightjs
