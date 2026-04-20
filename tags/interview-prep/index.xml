@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Interview Prep on harshcurious</title><link>http://localhost:1313/tags/interview-prep/</link><description>Recent content in Interview Prep on harshcurious</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 21 Dec 2023 16:31:40 +0530</lastBuildDate><atom:link href="http://localhost:1313/tags/interview-prep/index.xml" rel="self" type="application/rss+xml"/><item><title>Starting the LeetCode Grind</title><link>http://localhost:1313/posts/leetcodegrind/</link><pubDate>Thu, 21 Dec 2023 16:31:40 +0530</pubDate><guid>http://localhost:1313/posts/leetcodegrind/</guid><description>&lt;p&gt;If you haven&amp;rsquo;t seen my recent Linkedin post, I am looking for a new job as a data scientist. Having been through the interview process in the recent year, there is no template for what might be asked in a data scientist interview. Here are some of the things I have been asked (no particular order):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Write a Dockerfile from scratch&lt;/li&gt;
+&lt;li&gt;Write a full data pipeline in 40 mins; including EDA, feature selection, model selection etc. Thankfully their interview platform crashed by the size of the dataset they asked me to work with!
+&lt;ul&gt;
+&lt;li&gt;Mind you this was my favorite. At least it&amp;rsquo;s stuff I do on a regular basis. Although the time limit was a bit ridiculous.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Write 5 SQL queries in 20 mins. This included a median based case statement in MySQL. (Median is not implemented by default in MySQL)&lt;/li&gt;
+&lt;li&gt;Obviously LeetCode type python questions. Generally the easy category type.&lt;/li&gt;
+&lt;li&gt;Writing the &lt;code&gt;partial&lt;/code&gt; function for the python library from scratch.
+&lt;ul&gt;
+&lt;li&gt;Code for reference&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-py" data-lang="py"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;partial&lt;/span&gt;(func, &lt;span style="color:#f92672"&gt;/&lt;/span&gt;, &lt;span style="color:#f92672"&gt;*&lt;/span&gt;args, &lt;span style="color:#f92672"&gt;**&lt;/span&gt;keywords):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;newfunc&lt;/span&gt;(&lt;span style="color:#f92672"&gt;*&lt;/span&gt;fargs, &lt;span style="color:#f92672"&gt;**&lt;/span&gt;fkeywords):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; newkeywords &lt;span style="color:#f92672"&gt;=&lt;/span&gt; {&lt;span style="color:#f92672"&gt;**&lt;/span&gt;keywords, &lt;span style="color:#f92672"&gt;**&lt;/span&gt;fkeywords}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; func(&lt;span style="color:#f92672"&gt;*&lt;/span&gt;args, &lt;span style="color:#f92672"&gt;*&lt;/span&gt;fargs, &lt;span style="color:#f92672"&gt;**&lt;/span&gt;newkeywords)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; newfunc&lt;span style="color:#f92672"&gt;.&lt;/span&gt;func &lt;span style="color:#f92672"&gt;=&lt;/span&gt; func
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; newfunc&lt;span style="color:#f92672"&gt;.&lt;/span&gt;args &lt;span style="color:#f92672"&gt;=&lt;/span&gt; args
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; newfunc&lt;span style="color:#f92672"&gt;.&lt;/span&gt;keywords &lt;span style="color:#f92672"&gt;=&lt;/span&gt; keywords
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; newfunc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;Case study around building a credit card risk assessment model.&lt;/li&gt;
+&lt;li&gt;I have been refused to be told what my day-to-day task will include. Likely because my hiring manager had no idea either!&lt;/li&gt;
+&lt;li&gt;Obviously the stats related questions: about sampling, information value, Kolmogorv-Smirnoff statistic, A/B testing, z-score, p-values etc.&lt;/li&gt;
+&lt;li&gt;The details of various ML and statistical models:
+&lt;ul&gt;
+&lt;li&gt;Decision trees: how they are built; do they overfit or underfit the data etc.&lt;/li&gt;
+&lt;li&gt;Random forest: uses bagging and feature randomness to create uncorrelated trees&lt;/li&gt;
+&lt;li&gt;xgBoost: boosting; sequential tree creation&lt;/li&gt;
+&lt;li&gt;BERT&lt;/li&gt;
+&lt;li&gt;I haven&amp;rsquo;t given any interviews recently for LLM roles otherwise I will probably encounter prompt engineering&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In my experience people are generally looking for certain certain words in these interviews. But most of the ML algorithms have multiple names for the same concept. So you have to be lucky to have the same ideas in mind during the interview.&lt;/p&gt;</description></item></channel></rss>

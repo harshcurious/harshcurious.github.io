@@ -1,1 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>py4e on harshcurious</title><link>https://harshcurious.com/tags/py4e/</link><description>Recent content in py4e on harshcurious</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 04 Mar 2021 10:48:28 +0530</lastBuildDate><atom:link href="https://harshcurious.com/tags/py4e/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Iterate in Python</title><link>https://harshcurious.com/posts/pythoniteration/</link><pubDate>Thu, 04 Mar 2021 10:48:28 +0530</pubDate><guid>https://harshcurious.com/posts/pythoniteration/</guid><description>My notes from the book Python for Everybody</description></item><item><title>Learning Python: Functions</title><link>https://harshcurious.com/posts/pythonfunction/</link><pubDate>Wed, 03 Mar 2021 13:25:35 +0530</pubDate><guid>https://harshcurious.com/posts/pythonfunction/</guid><description>My notes from the book Python for Everybody</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Py4e on harshcurious</title><link>http://localhost:1313/tags/py4e/</link><description>Recent content in Py4e on harshcurious</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 04 Mar 2021 10:48:28 +0530</lastBuildDate><atom:link href="http://localhost:1313/tags/py4e/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Iterate in Python</title><link>http://localhost:1313/posts/pythoniteration/</link><pubDate>Thu, 04 Mar 2021 10:48:28 +0530</pubDate><guid>http://localhost:1313/posts/pythoniteration/</guid><description>&lt;h2 id="the-while-loop"&gt;The &lt;code&gt;while&lt;/code&gt; loop&lt;/h2&gt;
+&lt;p&gt;It allows you to repeat a set of actions until a statement is true. Eg:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-Python" data-lang="Python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;n &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;while&lt;/span&gt; n &lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(n)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; n &lt;span style="color:#f92672"&gt;=&lt;/span&gt; n &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(&lt;span style="color:#e6db74"&gt;&amp;#39;Blastoff!&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This is executed as follows&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Creates and sets n to 5.&lt;/li&gt;
+&lt;li&gt;Goes to the &lt;code&gt;while&lt;/code&gt; statement and checks if n is greater than 0. Right now it&amp;rsquo;s true, so we move inside the loop.
+&lt;ul&gt;
+&lt;li&gt;Prints n, ie outputs 5.&lt;/li&gt;
+&lt;li&gt;Reduces n by 1, ie n is now 4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Goes back to the while statement
+&lt;ul&gt;
+&lt;li&gt;Checks if n is still greater than 0. It is, so we again move inside the &lt;code&gt;while&lt;/code&gt; loop.&lt;/li&gt;
+&lt;li&gt;Prints 4.&lt;/li&gt;
+&lt;li&gt;Reduces n by 1.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Goes back to the while statement
+&lt;ul&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;This goes on until n = 0. When this happens, we exit the &lt;code&gt;while&lt;/code&gt; loop and go to the statement after that which is &lt;code&gt;print('Blastoff')&lt;/code&gt;. So the probram outputs &lt;code&gt;Blastoff&lt;/code&gt; and ends.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="infinite-loops"&gt;Infinite loops&lt;/h2&gt;
+&lt;p&gt;Don&amp;rsquo;t write infinite loops. Eg:&lt;/p&gt;</description></item><item><title>Learning Python: Functions</title><link>http://localhost:1313/posts/pythonfunction/</link><pubDate>Wed, 03 Mar 2021 13:25:35 +0530</pubDate><guid>http://localhost:1313/posts/pythonfunction/</guid><description>&lt;h2 id="what-is-a-function"&gt;What is a Function&lt;/h2&gt;
+&lt;p&gt;A &lt;strong&gt;function&lt;/strong&gt; takes a set of inputs and produces an output. Eg:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;type(&lt;span style="color:#ae81ff"&gt;32&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;#39;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;init&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Here &lt;code&gt;type&lt;/code&gt; is a function that takes &lt;code&gt;32&lt;/code&gt; as an input and produces its class.&lt;/p&gt;
+&lt;h2 id="some-built-in-functions"&gt;Some Built-in functions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;max&lt;/code&gt; : gives the “largest character” in the string&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-Python" data-lang="Python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;max(&lt;span style="color:#e6db74"&gt;&amp;#39;Hello world&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;w&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;min&lt;/code&gt; : gives the “smallest character” in the string&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-Python" data-lang="Python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;min(&lt;span style="color:#e6db74"&gt;&amp;#39;Hello world&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39; &amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;len&lt;/code&gt; : gives the number of characters in the string&lt;/p&gt;</description></item></channel></rss>

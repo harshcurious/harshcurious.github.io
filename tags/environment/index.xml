@@ -1,1 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>environment on harshcurious</title><link>https://harshcurious.com/tags/environment/</link><description>Recent content in environment on harshcurious</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 14 Feb 2022 14:17:53 +0530</lastBuildDate><atom:link href="https://harshcurious.com/tags/environment/index.xml" rel="self" type="application/rss+xml"/><item><title>JupyterLab Python Environments</title><link>https://harshcurious.com/posts/jupyterlab_environment/</link><pubDate>Mon, 14 Feb 2022 14:17:53 +0530</pubDate><guid>https://harshcurious.com/posts/jupyterlab_environment/</guid><description>Learning how to add a conda environment to JupyterLab</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Environment on harshcurious</title><link>http://localhost:1313/tags/environment/</link><description>Recent content in Environment on harshcurious</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 14 Feb 2022 14:17:53 +0530</lastBuildDate><atom:link href="http://localhost:1313/tags/environment/index.xml" rel="self" type="application/rss+xml"/><item><title>JupyterLab Python Environments</title><link>http://localhost:1313/posts/jupyterlab_environment/</link><pubDate>Mon, 14 Feb 2022 14:17:53 +0530</pubDate><guid>http://localhost:1313/posts/jupyterlab_environment/</guid><description>&lt;h2 id="adding-environments-to-jupyterlab"&gt;Adding Environments to JupyterLab&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Source: &lt;a href="https://janakiev.com/blog/jupyter-virtual-envs/"&gt;https://janakiev.com/blog/jupyter-virtual-envs/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Activate the environment: &lt;code&gt;conda activate my_env&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Install &lt;code&gt;ipykernel&lt;/code&gt; in your environment. Using:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;pip install --user ipykernel&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;conda install -c conda-forge ipykernel&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Run the following to add the current kernel&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt; to jupyterlab installation in base environment:
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;python -m ipykernel install --user --name&lt;span style="color:#f92672"&gt;=&lt;/span&gt;udemy-data-science
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="removing-environments-from-jupyterlab"&gt;Removing Environments from JupyterLab&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Check the list using:
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;jupyter kernelspec list
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;Remove a kernel using:
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;jupyter kernelspec uninstall myenv
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;So don&amp;rsquo;t forget to activate the environment first.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

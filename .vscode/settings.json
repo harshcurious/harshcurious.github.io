@@ -25,7 +25,15 @@
     "workbench.colorCustomizations": {
         "activityBar.background": "#143408",
         "titleBar.activeBackground": "#1C490C",
-        "titleBar.activeForeground": "#F5FDF2"
+        "titleBar.activeForeground": "#F5FDF2",
+        "titleBar.inactiveBackground": "#143408",
+        "titleBar.inactiveForeground": "#F5FDF2",
+        "statusBar.background": "#143408",
+        "statusBar.foreground": "#F5FDF2",
+        "statusBar.debuggingBackground": "#143408",
+        "statusBar.debuggingForeground": "#F5FDF2",
+        "statusBar.noFolderBackground": "#143408",
+        "statusBar.noFolderForeground": "#F5FDF2"
     },
     "cSpell.enableFiletypes": [
         "markdown"

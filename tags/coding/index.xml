@@ -1,2 +1,388 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>coding on harshcurious</title><link>https://harshcurious.com/tags/coding/</link><description>Recent content in coding on harshcurious</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 08 Mar 2021 22:04:51 +0530</lastBuildDate><atom:link href="https://harshcurious.com/tags/coding/index.xml" rel="self" type="application/rss+xml"/><item><title>Let's get Go-ing</title><link>https://harshcurious.com/posts/gointro/</link><pubDate>Mon, 08 Mar 2021 22:04:51 +0530</pubDate><guid>https://harshcurious.com/posts/gointro/</guid><description>Notes from chapter 1 of the book Go In Action</description></item><item><title>First look at Go In Action</title><link>https://harshcurious.com/posts/gofirstlook/</link><pubDate>Mon, 08 Mar 2021 21:12:59 +0530</pubDate><guid>https://harshcurious.com/posts/gofirstlook/</guid><description>What I thought when I first opened it.</description></item><item><title>What are Strings in Python</title><link>https://harshcurious.com/posts/pythonstrings/</link><pubDate>Sun, 07 Mar 2021 15:06:35 +0530</pubDate><guid>https://harshcurious.com/posts/pythonstrings/</guid><description>My notes from the book Python for Everybody</description></item><item><title>Creating This Website Using Hugo on Windows 10</title><link>https://harshcurious.com/posts/hugocreation/</link><pubDate>Sun, 28 Feb 2021 13:04:04 +0530</pubDate><guid>https://harshcurious.com/posts/hugocreation/</guid><description>This post describes the creation process of this website. I have used the popular static site generator Hugo. Hugo is based on the language go. Disclaimer: this is the second time I am creating my website using Hugo. But the last time I created this was in 2015, so a lot has changed.
-Installing Hugo on Windows 10 My recommendation is to use Chocolatey to install Hugo although there are binaries available at github for direct installation.</description></item><item><title>FranklinFail</title><link>https://harshcurious.com/posts/franklinfail/</link><pubDate>Sat, 27 Feb 2021 17:56:37 +0530</pubDate><guid>https://harshcurious.com/posts/franklinfail/</guid><description>Trying to make Frankin work on Windows 10</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Coding on harshcurious</title><link>http://localhost:1313/tags/coding/</link><description>Recent content in Coding on harshcurious</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 21 Dec 2023 16:31:40 +0530</lastBuildDate><atom:link href="http://localhost:1313/tags/coding/index.xml" rel="self" type="application/rss+xml"/><item><title>Starting the LeetCode Grind</title><link>http://localhost:1313/posts/leetcodegrind/</link><pubDate>Thu, 21 Dec 2023 16:31:40 +0530</pubDate><guid>http://localhost:1313/posts/leetcodegrind/</guid><description>&lt;p&gt;If you haven&amp;rsquo;t seen my recent Linkedin post, I am looking for a new job as a data scientist. Having been through the interview process in the recent year, there is no template for what might be asked in a data scientist interview. Here are some of the things I have been asked (no particular order):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Write a Dockerfile from scratch&lt;/li&gt;
+&lt;li&gt;Write a full data pipeline in 40 mins; including EDA, feature selection, model selection etc. Thankfully their interview platform crashed by the size of the dataset they asked me to work with!
+&lt;ul&gt;
+&lt;li&gt;Mind you this was my favorite. At least it&amp;rsquo;s stuff I do on a regular basis. Although the time limit was a bit ridiculous.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Write 5 SQL queries in 20 mins. This included a median based case statement in MySQL. (Median is not implemented by default in MySQL)&lt;/li&gt;
+&lt;li&gt;Obviously LeetCode type python questions. Generally the easy category type.&lt;/li&gt;
+&lt;li&gt;Writing the &lt;code&gt;partial&lt;/code&gt; function for the python library from scratch.
+&lt;ul&gt;
+&lt;li&gt;Code for reference&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-py" data-lang="py"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;partial&lt;/span&gt;(func, &lt;span style="color:#f92672"&gt;/&lt;/span&gt;, &lt;span style="color:#f92672"&gt;*&lt;/span&gt;args, &lt;span style="color:#f92672"&gt;**&lt;/span&gt;keywords):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;newfunc&lt;/span&gt;(&lt;span style="color:#f92672"&gt;*&lt;/span&gt;fargs, &lt;span style="color:#f92672"&gt;**&lt;/span&gt;fkeywords):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; newkeywords &lt;span style="color:#f92672"&gt;=&lt;/span&gt; {&lt;span style="color:#f92672"&gt;**&lt;/span&gt;keywords, &lt;span style="color:#f92672"&gt;**&lt;/span&gt;fkeywords}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; func(&lt;span style="color:#f92672"&gt;*&lt;/span&gt;args, &lt;span style="color:#f92672"&gt;*&lt;/span&gt;fargs, &lt;span style="color:#f92672"&gt;**&lt;/span&gt;newkeywords)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; newfunc&lt;span style="color:#f92672"&gt;.&lt;/span&gt;func &lt;span style="color:#f92672"&gt;=&lt;/span&gt; func
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; newfunc&lt;span style="color:#f92672"&gt;.&lt;/span&gt;args &lt;span style="color:#f92672"&gt;=&lt;/span&gt; args
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; newfunc&lt;span style="color:#f92672"&gt;.&lt;/span&gt;keywords &lt;span style="color:#f92672"&gt;=&lt;/span&gt; keywords
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; newfunc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;Case study around building a credit card risk assessment model.&lt;/li&gt;
+&lt;li&gt;I have been refused to be told what my day-to-day task will include. Likely because my hiring manager had no idea either!&lt;/li&gt;
+&lt;li&gt;Obviously the stats related questions: about sampling, information value, Kolmogorv-Smirnoff statistic, A/B testing, z-score, p-values etc.&lt;/li&gt;
+&lt;li&gt;The details of various ML and statistical models:
+&lt;ul&gt;
+&lt;li&gt;Decision trees: how they are built; do they overfit or underfit the data etc.&lt;/li&gt;
+&lt;li&gt;Random forest: uses bagging and feature randomness to create uncorrelated trees&lt;/li&gt;
+&lt;li&gt;xgBoost: boosting; sequential tree creation&lt;/li&gt;
+&lt;li&gt;BERT&lt;/li&gt;
+&lt;li&gt;I haven&amp;rsquo;t given any interviews recently for LLM roles otherwise I will probably encounter prompt engineering&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In my experience people are generally looking for certain certain words in these interviews. But most of the ML algorithms have multiple names for the same concept. So you have to be lucky to have the same ideas in mind during the interview.&lt;/p&gt;</description></item><item><title>Let's get Go-ing</title><link>http://localhost:1313/posts/gointro/</link><pubDate>Mon, 08 Mar 2021 22:04:51 +0530</pubDate><guid>http://localhost:1313/posts/gointro/</guid><description>&lt;h3 id="why-go"&gt;Why Go?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Computer evolution
+&lt;ul&gt;
+&lt;li&gt;more cores&lt;/li&gt;
+&lt;li&gt;programming languages based on one core programming&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Programming workflow evolution
+&lt;ul&gt;
+&lt;li&gt;not written by single developer&lt;/li&gt;
+&lt;li&gt;written at different times&lt;/li&gt;
+&lt;li&gt;programmers write library or package to be used elsewhere&lt;/li&gt;
+&lt;li&gt;open source&lt;/li&gt;
+&lt;li&gt;code needs to be shared&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Go
+&lt;ul&gt;
+&lt;li&gt;rethinks object-oriented development&lt;/li&gt;
+&lt;li&gt;allows for code reuse&lt;/li&gt;
+&lt;li&gt;let&amp;rsquo;s you use all cores&lt;/li&gt;
+&lt;li&gt;no need to recompile evrytime.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Learn
+&lt;ul&gt;
+&lt;li&gt;concurrency model&lt;/li&gt;
+&lt;li&gt;fast compiler&lt;/li&gt;
+&lt;li&gt;syntax&lt;/li&gt;
+&lt;li&gt;type system&lt;/li&gt;
+&lt;li&gt;concurrency&lt;/li&gt;
+&lt;li&gt;channels&lt;/li&gt;
+&lt;li&gt;testing, etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="how-modern-programming-challenges-go-away"&gt;How Modern programming challenges Go away&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Currently choice between
+&lt;ul&gt;
+&lt;li&gt;rapid development : Ruby, python&lt;/li&gt;
+&lt;li&gt;fast execution : C, C++.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Go offers both simultaneously.&lt;/li&gt;
+&lt;li&gt;Also, concise syntax : few keywords&lt;/li&gt;
+&lt;li&gt;Compiler : less build time.&lt;/li&gt;
+&lt;li&gt;Built-in concurrency: no special threading libraries.&lt;/li&gt;
+&lt;li&gt;Type system: less overhead; more reusability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="how-is-the-compiler-go-ing"&gt;How is the compiler Go-ing?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Quick compiles by
+&lt;ul&gt;
+&lt;li&gt;smart compiling&lt;/li&gt;
+&lt;li&gt;simplified dependency resolution algorithm&lt;/li&gt;
+&lt;li&gt;only looks at the libraries directly used&lt;/li&gt;
+&lt;li&gt;not all dependencies of all libraries included in the dependency chain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Dynamic languages&lt;/th&gt;
+ &lt;th&gt;Static languages&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Types checked on the fly, during execution&lt;/td&gt;
+ &lt;td&gt;Types checked before run-time&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Less verbose&lt;/td&gt;
+ &lt;td&gt;Better code completion&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Easier to make change; no wait for recompilation&lt;/td&gt;
+ &lt;td&gt;Allows compiler optimization&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Less&lt;/td&gt;
+ &lt;td&gt;More searchable&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Difficult to work with other type based systems&lt;/td&gt;
+ &lt;td&gt;Easier to work with other systems (that rely on ststic type) like relational databases&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Fewer syntax and semantic errors&lt;/td&gt;
+ &lt;td&gt;Easier to catch type errors&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Eg: Perl, Python, JS&lt;/td&gt;
+ &lt;td&gt;C, C++, Java, Go, Rust&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;Go is a static language
+&lt;ul&gt;
+&lt;li&gt;compiler catches type differences&lt;/li&gt;
+&lt;li&gt;easier to catch type errors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="concurrency"&gt;Concurrency&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Difficult to be efficient in hardware utilization&lt;/li&gt;
+&lt;li&gt;Others need thread synchronization code, prone to errors&lt;/li&gt;
+&lt;li&gt;Strongest feature&lt;/li&gt;
+&lt;li&gt;Gorutines
+&lt;ul&gt;
+&lt;li&gt;like threads, use less memory and code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Channels
+&lt;ul&gt;
+&lt;li&gt;data structue&lt;/li&gt;
+&lt;li&gt;lets you send typed messages between goroutines&lt;/li&gt;
+&lt;li&gt;syncronization built-in&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Model where you
+&lt;ul&gt;
+&lt;li&gt;send data between goroutines&lt;/li&gt;
+&lt;li&gt;goroutines don&amp;rsquo;t fight for same data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="goroutines"&gt;goroutines&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;functions that run simultaneously&lt;/li&gt;
+&lt;li&gt;Many goroutines can run on a single thread&lt;/li&gt;
+&lt;li&gt;For example, a web server that can handle multiple web requsts.
+&lt;ul&gt;
+&lt;li&gt;In Go, the net/http library has concurrency built-in using goroutines.&lt;/li&gt;
+&lt;li&gt;In C/Java, need extra code to use threading&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Use less memory than threads.&lt;/li&gt;
+&lt;li&gt;Go runtime automatically schedules execution of goroutines&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;An example of goroutine:&lt;/p&gt;</description></item><item><title>First look at Go In Action</title><link>http://localhost:1313/posts/gofirstlook/</link><pubDate>Mon, 08 Mar 2021 21:12:59 +0530</pubDate><guid>http://localhost:1313/posts/gofirstlook/</guid><description>&lt;h2 id="foreward"&gt;Foreward&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Created by Rob Pike, Robert Griesmier, and Ken Thompson
+&lt;ul&gt;
+&lt;li&gt;other contributions include UNIX, Java&amp;rsquo;s JVM Hotspot, Strontalk, UTF8&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Open-sourse&lt;/li&gt;
+&lt;li&gt;2013: Gopher Academy; building community around Go.
+&lt;ul&gt;
+&lt;li&gt;Go discussion board (slack)&lt;/li&gt;
+&lt;li&gt;Gopher Academy blog&lt;/li&gt;
+&lt;li&gt;GopherCon&lt;/li&gt;
+&lt;li&gt;Go In Action&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="preface"&gt;Preface&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Began as GoingGo.net blog&lt;/li&gt;
+&lt;li&gt;Member of founding team of Go
+&lt;ul&gt;
+&lt;li&gt;reviewed&lt;/li&gt;
+&lt;li&gt;suggested changes&lt;/li&gt;
+&lt;li&gt;shared expertise&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Community effort ever scince&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="about-the-book"&gt;About the Book&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Go is
+&lt;ul&gt;
+&lt;li&gt;simple&lt;/li&gt;
+&lt;li&gt;makes
+&lt;ul&gt;
+&lt;li&gt;simple&lt;/li&gt;
+&lt;li&gt;reliable and&lt;/li&gt;
+&lt;li&gt;efficient software&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ides from existing languages&lt;/li&gt;
+&lt;li&gt;unique and simple&lt;/li&gt;
+&lt;li&gt;balances
+&lt;ul&gt;
+&lt;li&gt;low-level language features, and&lt;/li&gt;
+&lt;li&gt;high-level language features&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Book
+&lt;ul&gt;
+&lt;li&gt;For intermediate level&lt;/li&gt;
+&lt;li&gt;Requires experince with programming&lt;/li&gt;
+&lt;li&gt;Goal
+&lt;ul&gt;
+&lt;li&gt;intensive&lt;/li&gt;
+&lt;li&gt;comprehensive&lt;/li&gt;
+&lt;li&gt;idiomatic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Focus on both
+&lt;ul&gt;
+&lt;li&gt;specification, around&lt;/li&gt;
+&lt;li&gt;implementation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Topics include:
+&lt;ul&gt;
+&lt;li&gt;syntax&lt;/li&gt;
+&lt;li&gt;type system&lt;/li&gt;
+&lt;li&gt;concurrency&lt;/li&gt;
+&lt;li&gt;channel&lt;/li&gt;
+&lt;li&gt;testing, etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Overview:
+&lt;ul&gt;
+&lt;li&gt;Chapter 1
+&lt;ul&gt;
+&lt;li&gt;What is Go?&lt;/li&gt;
+&lt;li&gt;Why created?&lt;/li&gt;
+&lt;li&gt;What Go does&lt;/li&gt;
+&lt;li&gt;Intro to concurrency&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;theoretical intro&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Chapter 2
+&lt;ul&gt;
+&lt;li&gt;walkthrough one program&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;practical intro&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Chapter 3
+&lt;ul&gt;
+&lt;li&gt;packaging&lt;/li&gt;
+&lt;li&gt;How to set up Go workflow?&lt;/li&gt;
+&lt;li&gt;tooling
+&lt;ul&gt;
+&lt;li&gt;fetching&lt;/li&gt;
+&lt;li&gt;building code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Chapter 4
+&lt;ul&gt;
+&lt;li&gt;What are the built-in data types?&lt;/li&gt;
+&lt;li&gt;their implementation and mechanics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Chapter 5
+&lt;ul&gt;
+&lt;li&gt;What&amp;rsquo;s the type system?&lt;/li&gt;
+&lt;li&gt;How to structure and write complex software?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Chapter 6
+&lt;ul&gt;
+&lt;li&gt;What is
+&lt;ul&gt;
+&lt;li&gt;scheduler&lt;/li&gt;
+&lt;li&gt;concurrency&lt;/li&gt;
+&lt;li&gt;channels&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Mechanics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Chapter 7
+&lt;ul&gt;
+&lt;li&gt;How to
+&lt;ul&gt;
+&lt;li&gt;use concurrency?&lt;/li&gt;
+&lt;li&gt;implement gorutine pools&lt;/li&gt;
+&lt;li&gt;pool reusable resources&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Chapter 8
+&lt;ul&gt;
+&lt;li&gt;What&amp;rsquo;s in the standard library?&lt;/li&gt;
+&lt;li&gt;Deep into
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;log&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;json&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;io&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Chapter 9
+&lt;ul&gt;
+&lt;li&gt;How to use
+&lt;ul&gt;
+&lt;li&gt;testing, and&lt;/li&gt;
+&lt;li&gt;benchmarking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Specifically how to
+&lt;ul&gt;
+&lt;li&gt;write unit and table tests and benchmarks&lt;/li&gt;
+&lt;li&gt;add examples to documentation&lt;/li&gt;
+&lt;li&gt;use examples as tests&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Code
+&lt;ul&gt;
+&lt;li&gt;Available at &lt;a href="https://github.com/goinaction/code"&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Overall, I like the style of the book. I am gonna give it a Go &amp;#x1f612;&lt;/p&gt;</description></item><item><title>What are Strings in Python</title><link>http://localhost:1313/posts/pythonstrings/</link><pubDate>Sun, 07 Mar 2021 15:06:35 +0530</pubDate><guid>http://localhost:1313/posts/pythonstrings/</guid><description>&lt;h2 id="its-a-sequence-a-sequence-of-characters"&gt;It&amp;rsquo;s a Sequence, a Sequence of Characters&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Can access the characters using the braket operator&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; fruit &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;banana&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; letter &lt;span style="color:#f92672"&gt;=&lt;/span&gt; fruit[&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; print(letter)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;a
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You get that &lt;code&gt;fruit[1]&lt;/code&gt; is &lt;code&gt;a&lt;/code&gt;, the second letter in the string. Remeber counting starts from 0 in Python.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the number inside the bracket is called the &lt;em&gt;index&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Indeces can be negative. But index $\in [-length+1, length -1]$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;len&lt;/code&gt; is the built-in function which gives the length of a string.&lt;/p&gt;</description></item><item><title>Creating This Website Using Hugo on Windows 10</title><link>http://localhost:1313/posts/hugocreation/</link><pubDate>Sun, 28 Feb 2021 13:04:04 +0530</pubDate><guid>http://localhost:1313/posts/hugocreation/</guid><description>&lt;p&gt;This post describes the creation process of this website. I have used the popular static site generator &lt;a href="https://gohugo.io/"&gt;Hugo&lt;/a&gt;. Hugo is based on the language &lt;em&gt;go&lt;/em&gt;. Disclaimer: this is the second time I am creating my website using Hugo. But the last time I created this was in 2015, so a lot has changed.&lt;/p&gt;
+&lt;h2 id="installing-hugo-on-windows-10"&gt;Installing Hugo on Windows 10&lt;/h2&gt;
+&lt;p&gt;My recommendation is to use &lt;a href="https://chocolatey.org/"&gt;Chocolatey&lt;/a&gt; to install Hugo although there are binaries available at &lt;a href="https://github.com/gohugoio/hugo/releases"&gt;github&lt;/a&gt; for direct installation. If Chocolatey is installed on your system, open powershell by right clicking the start button. There type&lt;/p&gt;</description></item><item><title>FranklinFail</title><link>http://localhost:1313/posts/franklinfail/</link><pubDate>Sat, 27 Feb 2021 17:56:37 +0530</pubDate><guid>http://localhost:1313/posts/franklinfail/</guid><description>&lt;h1 id="my-failed-attempt-at-setting-up-this-website-using-franklin-on-windows"&gt;My Failed Attempt at Setting Up This Website Using Franklin (On Windows)&lt;/h1&gt;
+&lt;p&gt;I will be using &lt;a href="https://franklinjl.org/"&gt;Franklin&lt;/a&gt; based on Julia because&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;I wanted to learn Julia&lt;/li&gt;
+&lt;li&gt;I wanted to use markdown (or somethng similar) with LaTeX support automatically&lt;/li&gt;
+&lt;li&gt;I wanted to see if the promises of KaTeX rendering hold water&lt;/li&gt;
+&lt;li&gt;Code highlighting was another bonus&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="installing-julia-on-windows-10"&gt;Installing Julia on Windows 10&lt;/h2&gt;
+&lt;p&gt;To do this I first installed Julia using Chocolatey with the command&lt;/p&gt;</description></item></channel></rss>

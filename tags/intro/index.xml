@@ -1,1 +1,146 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Intro on harshcurious</title><link>https://harshcurious.com/tags/intro/</link><description>Recent content in Intro on harshcurious</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 08 Mar 2021 22:04:51 +0530</lastBuildDate><atom:link href="https://harshcurious.com/tags/intro/index.xml" rel="self" type="application/rss+xml"/><item><title>Let's get Go-ing</title><link>https://harshcurious.com/posts/gointro/</link><pubDate>Mon, 08 Mar 2021 22:04:51 +0530</pubDate><guid>https://harshcurious.com/posts/gointro/</guid><description>Notes from chapter 1 of the book Go In Action</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Intro on harshcurious</title><link>http://localhost:1313/tags/intro/</link><description>Recent content in Intro on harshcurious</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 08 Mar 2021 22:04:51 +0530</lastBuildDate><atom:link href="http://localhost:1313/tags/intro/index.xml" rel="self" type="application/rss+xml"/><item><title>Let's get Go-ing</title><link>http://localhost:1313/posts/gointro/</link><pubDate>Mon, 08 Mar 2021 22:04:51 +0530</pubDate><guid>http://localhost:1313/posts/gointro/</guid><description>&lt;h3 id="why-go"&gt;Why Go?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Computer evolution
+&lt;ul&gt;
+&lt;li&gt;more cores&lt;/li&gt;
+&lt;li&gt;programming languages based on one core programming&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Programming workflow evolution
+&lt;ul&gt;
+&lt;li&gt;not written by single developer&lt;/li&gt;
+&lt;li&gt;written at different times&lt;/li&gt;
+&lt;li&gt;programmers write library or package to be used elsewhere&lt;/li&gt;
+&lt;li&gt;open source&lt;/li&gt;
+&lt;li&gt;code needs to be shared&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Go
+&lt;ul&gt;
+&lt;li&gt;rethinks object-oriented development&lt;/li&gt;
+&lt;li&gt;allows for code reuse&lt;/li&gt;
+&lt;li&gt;let&amp;rsquo;s you use all cores&lt;/li&gt;
+&lt;li&gt;no need to recompile evrytime.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Learn
+&lt;ul&gt;
+&lt;li&gt;concurrency model&lt;/li&gt;
+&lt;li&gt;fast compiler&lt;/li&gt;
+&lt;li&gt;syntax&lt;/li&gt;
+&lt;li&gt;type system&lt;/li&gt;
+&lt;li&gt;concurrency&lt;/li&gt;
+&lt;li&gt;channels&lt;/li&gt;
+&lt;li&gt;testing, etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="how-modern-programming-challenges-go-away"&gt;How Modern programming challenges Go away&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Currently choice between
+&lt;ul&gt;
+&lt;li&gt;rapid development : Ruby, python&lt;/li&gt;
+&lt;li&gt;fast execution : C, C++.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Go offers both simultaneously.&lt;/li&gt;
+&lt;li&gt;Also, concise syntax : few keywords&lt;/li&gt;
+&lt;li&gt;Compiler : less build time.&lt;/li&gt;
+&lt;li&gt;Built-in concurrency: no special threading libraries.&lt;/li&gt;
+&lt;li&gt;Type system: less overhead; more reusability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="how-is-the-compiler-go-ing"&gt;How is the compiler Go-ing?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Quick compiles by
+&lt;ul&gt;
+&lt;li&gt;smart compiling&lt;/li&gt;
+&lt;li&gt;simplified dependency resolution algorithm&lt;/li&gt;
+&lt;li&gt;only looks at the libraries directly used&lt;/li&gt;
+&lt;li&gt;not all dependencies of all libraries included in the dependency chain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Dynamic languages&lt;/th&gt;
+ &lt;th&gt;Static languages&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Types checked on the fly, during execution&lt;/td&gt;
+ &lt;td&gt;Types checked before run-time&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Less verbose&lt;/td&gt;
+ &lt;td&gt;Better code completion&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Easier to make change; no wait for recompilation&lt;/td&gt;
+ &lt;td&gt;Allows compiler optimization&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Less&lt;/td&gt;
+ &lt;td&gt;More searchable&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Difficult to work with other type based systems&lt;/td&gt;
+ &lt;td&gt;Easier to work with other systems (that rely on ststic type) like relational databases&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Fewer syntax and semantic errors&lt;/td&gt;
+ &lt;td&gt;Easier to catch type errors&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Eg: Perl, Python, JS&lt;/td&gt;
+ &lt;td&gt;C, C++, Java, Go, Rust&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;Go is a static language
+&lt;ul&gt;
+&lt;li&gt;compiler catches type differences&lt;/li&gt;
+&lt;li&gt;easier to catch type errors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="concurrency"&gt;Concurrency&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Difficult to be efficient in hardware utilization&lt;/li&gt;
+&lt;li&gt;Others need thread synchronization code, prone to errors&lt;/li&gt;
+&lt;li&gt;Strongest feature&lt;/li&gt;
+&lt;li&gt;Gorutines
+&lt;ul&gt;
+&lt;li&gt;like threads, use less memory and code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Channels
+&lt;ul&gt;
+&lt;li&gt;data structue&lt;/li&gt;
+&lt;li&gt;lets you send typed messages between goroutines&lt;/li&gt;
+&lt;li&gt;syncronization built-in&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Model where you
+&lt;ul&gt;
+&lt;li&gt;send data between goroutines&lt;/li&gt;
+&lt;li&gt;goroutines don&amp;rsquo;t fight for same data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="goroutines"&gt;goroutines&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;functions that run simultaneously&lt;/li&gt;
+&lt;li&gt;Many goroutines can run on a single thread&lt;/li&gt;
+&lt;li&gt;For example, a web server that can handle multiple web requsts.
+&lt;ul&gt;
+&lt;li&gt;In Go, the net/http library has concurrency built-in using goroutines.&lt;/li&gt;
+&lt;li&gt;In C/Java, need extra code to use threading&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Use less memory than threads.&lt;/li&gt;
+&lt;li&gt;Go runtime automatically schedules execution of goroutines&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;An example of goroutine:&lt;/p&gt;</description></item></channel></rss>

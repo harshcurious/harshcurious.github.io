@@ -1,1 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>franklin on harshcurious</title><link>https://harshcurious.com/tags/franklin/</link><description>Recent content in franklin on harshcurious</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 27 Feb 2021 17:56:37 +0530</lastBuildDate><atom:link href="https://harshcurious.com/tags/franklin/index.xml" rel="self" type="application/rss+xml"/><item><title>FranklinFail</title><link>https://harshcurious.com/posts/franklinfail/</link><pubDate>Sat, 27 Feb 2021 17:56:37 +0530</pubDate><guid>https://harshcurious.com/posts/franklinfail/</guid><description>Trying to make Frankin work on Windows 10</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Franklin on harshcurious</title><link>http://localhost:1313/tags/franklin/</link><description>Recent content in Franklin on harshcurious</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 27 Feb 2021 17:56:37 +0530</lastBuildDate><atom:link href="http://localhost:1313/tags/franklin/index.xml" rel="self" type="application/rss+xml"/><item><title>FranklinFail</title><link>http://localhost:1313/posts/franklinfail/</link><pubDate>Sat, 27 Feb 2021 17:56:37 +0530</pubDate><guid>http://localhost:1313/posts/franklinfail/</guid><description>&lt;h1 id="my-failed-attempt-at-setting-up-this-website-using-franklin-on-windows"&gt;My Failed Attempt at Setting Up This Website Using Franklin (On Windows)&lt;/h1&gt;
+&lt;p&gt;I will be using &lt;a href="https://franklinjl.org/"&gt;Franklin&lt;/a&gt; based on Julia because&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;I wanted to learn Julia&lt;/li&gt;
+&lt;li&gt;I wanted to use markdown (or somethng similar) with LaTeX support automatically&lt;/li&gt;
+&lt;li&gt;I wanted to see if the promises of KaTeX rendering hold water&lt;/li&gt;
+&lt;li&gt;Code highlighting was another bonus&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="installing-julia-on-windows-10"&gt;Installing Julia on Windows 10&lt;/h2&gt;
+&lt;p&gt;To do this I first installed Julia using Chocolatey with the command&lt;/p&gt;</description></item></channel></rss>

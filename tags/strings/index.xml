@@ -1,1 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>strings on harshcurious</title><link>https://harshcurious.com/tags/strings/</link><description>Recent content in strings on harshcurious</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 07 Mar 2021 15:06:35 +0530</lastBuildDate><atom:link href="https://harshcurious.com/tags/strings/index.xml" rel="self" type="application/rss+xml"/><item><title>What are Strings in Python</title><link>https://harshcurious.com/posts/pythonstrings/</link><pubDate>Sun, 07 Mar 2021 15:06:35 +0530</pubDate><guid>https://harshcurious.com/posts/pythonstrings/</guid><description>My notes from the book Python for Everybody</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Strings on harshcurious</title><link>http://localhost:1313/tags/strings/</link><description>Recent content in Strings on harshcurious</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 07 Mar 2021 15:06:35 +0530</lastBuildDate><atom:link href="http://localhost:1313/tags/strings/index.xml" rel="self" type="application/rss+xml"/><item><title>What are Strings in Python</title><link>http://localhost:1313/posts/pythonstrings/</link><pubDate>Sun, 07 Mar 2021 15:06:35 +0530</pubDate><guid>http://localhost:1313/posts/pythonstrings/</guid><description>&lt;h2 id="its-a-sequence-a-sequence-of-characters"&gt;It&amp;rsquo;s a Sequence, a Sequence of Characters&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Can access the characters using the braket operator&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; fruit &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;banana&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; letter &lt;span style="color:#f92672"&gt;=&lt;/span&gt; fruit[&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; print(letter)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;a
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You get that &lt;code&gt;fruit[1]&lt;/code&gt; is &lt;code&gt;a&lt;/code&gt;, the second letter in the string. Remeber counting starts from 0 in Python.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the number inside the bracket is called the &lt;em&gt;index&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Indeces can be negative. But index $\in [-length+1, length -1]$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;len&lt;/code&gt; is the built-in function which gives the length of a string.&lt;/p&gt;</description></item></channel></rss>
